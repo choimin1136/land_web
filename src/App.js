@@ -1,24 +1,51 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import Map_com from './Map';
+import Sidebar from './Sidebar';
 import './App.css';
+import './App1.css';
+import './App2.css';
+import './App3.css';
+import { AptProvider } from './Context/apt_context';
+import { ClusterContextProvider } from './Context/Cluster_set';
+import { BusProvider } from './Context/BusContext';
+import { MartProvider } from './Context/MartContext';
+import { TrainProvider } from './Context/TrainContext';
+import { AdminProvider } from './Context/AdminContext';
+import { RoadProvider } from './Context/RoadContext';
+import { EschoolProvider } from './Context/EschoolContext';
+import { MapCenterContextProvider } from './Context/Map_center';
 
 function App() {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+    console.log(isSidebarOpen);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ClusterContextProvider>
+      <AptProvider>
+        <BusProvider>
+          <MartProvider>
+            <TrainProvider>
+              <AdminProvider>
+                <RoadProvider>
+                  <EschoolProvider>
+                    <MapCenterContextProvider>
+                      <div className="App">
+                        <Sidebar/>
+                        <Map_com />
+                      </div>
+                    </MapCenterContextProvider>
+                  </EschoolProvider>
+                </RoadProvider>
+              </AdminProvider>
+            </TrainProvider>
+          </MartProvider>
+        </BusProvider>
+      </AptProvider>
+    </ClusterContextProvider>
   );
 }
 

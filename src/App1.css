@@ -1,0 +1,7056 @@
+@charset "UTF-8";html.index {
+    overflow: hidden
+}
+
+html.index body {
+    height: 100%;
+    scrollbar-face-color:#fff;scrollbar-highlight-color:#e5e5e5;scrollbar-3dlight-color: #fff;
+    scrollbar-shadow-color:#e5e5e5;scrollbar-darkshadow-color: #fff;
+    scrollbar-track-color:#fafafa;scrollbar-arrow-color:#8c8c8c;background: #fff
+}
+
+.DOTUM,.DOTUM11,.DOTUM14 {
+    font-family: Dotum,sans-serif
+}
+
+.DOTUM11 {
+    font-size: 11px;
+    letter-spacing: -1px
+}
+
+.DOTUM14 {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: -.5px
+}
+
+.HIDDEN {
+    display: none!important
+}
+
+iframe.HIDDEN {
+    display: block!important;
+    position: absolute!important;
+    left: -9999px!important;
+    top: -9999px!important
+}
+
+.PLACEHOLDER {
+    color: #999
+}
+
+.screen_out {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px
+}
+
+.screen_hide {
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden
+}
+
+.screen_visible {
+    font-size: 0;
+    line-height: 0
+}
+
+.itemLeft {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.itemRight {
+    text-align: right;
+    display: inline-block;
+    float: right
+}
+
+.ir_wa {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1
+}
+
+.ir_caption {
+    overflow: hidden;
+    width: 1px;
+    font-size: 1px;
+    line-height: 0;
+    text-indent: -9999px
+}
+
+.num {
+    letter-spacing: 0!important
+}
+
+#daumIndex {
+    overflow: hidden;
+    position: absolute;
+    left: -9999px;
+    width: 0;
+    height: 1px;
+    margin: 0;
+    padding: 0
+}
+
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,li,ol,th,td,p,blockquote,form,fieldset,legend {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font: 12px/1.5 'Malgun Gothic','돋움',dotum,sans-serif;
+    background: #fff;
+    color: #333;
+    letter-spacing: -1px
+}
+
+body:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    content: ''
+}
+
+.os_mac body {
+    font-family: AppleSDGothicNeo-Regular,'돋움',dotum,sans-serif;
+    letter-spacing: 0
+}
+
+html,body {
+    -ms-content-zooming: none;
+    -ms-touch-action: none
+}
+
+a:link,a:active,a:visited {
+    color: #333;
+    text-decoration: none
+}
+
+a:hover {
+    color: #333;
+    text-decoration: underline
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%
+}
+
+ul,ol {
+    list-style: none
+}
+
+img,fieldset,table,th,td {
+    border: 0
+}
+
+em,address {
+    font-style: normal
+}
+
+input,select,textarea,button {
+    font: 100%/1.5 Gulim,\ad74\b9bc,sans-serif;
+    font: inherit
+}
+
+input[type=text],input[type=password] {
+    outline: 0
+}
+
+button {
+    margin: 0;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    cursor: pointer;
+    overflow: visible;
+    background: 0;
+    border-radius: 0
+}
+
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+.InfoWindow.AccidentInfoWindow {
+    left: -203px;
+    width: 406px
+}
+
+.InfoWindow.AccidentInfoWindow .body {
+    padding-bottom: 17px
+}
+
+.InfoWindow.AccidentInfoWindow strong {
+    display: block;
+    padding: 17px 46px 0 20px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000
+}
+
+.InfoWindow.AccidentInfoWindow strong em {
+    color: #fd9727
+}
+
+.InfoWindow.AccidentInfoWindow blockquote {
+    margin: 9px 53px 0 20px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #222
+}
+
+.InfoWindow.AccidentInfoWindow p {
+    margin: 3px 20px 0;
+    font-size: 12px;
+    line-height: 17px;
+    color: #444;
+    letter-spacing: 0
+}
+
+.InfoWindow.AccidentInfoWindow .provider {
+    margin: 9px 20px 0;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: AppleSDGothicNeo-light;
+    color: rgba(153,153,153,.9);
+    color: #a3a3a3
+}
+
+.os_mac .InfoWindow.AccidentInfoWindow strong {
+    font-size: 18px
+}
+
+.os_mac .InfoWindow.AccidentInfoWindow blockquote,.os_mac .AccidentInfoWindow p,.os_mac .AccidentInfoWindow .provider {
+    font-size: 13px
+}
+
+.AdItem {
+    overflow: hidden;
+    position: relative;
+    display: table;
+    width: 100%;
+    min-height: 110px;
+    border-bottom: 1px solid #eee
+}
+
+.searchHeader.HIDDEN ~ .keywordSearch .AdItem:before {
+    content: '';
+    display: table-row;
+    height: 9px;
+    background: #fff url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/info/shadow_info_section.png) repeat-x 0 100%
+}
+
+.AdItem .link_ad {
+    display: table-cell;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    background-color: #fffef9
+}
+
+.AdItem .link_ad:hover {
+    background-color: #faf9f4
+}
+
+.AdItem .wrap_thumb {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    margin-top: -35px
+}
+
+.AdItem .thumb_ad {
+    display: block
+}
+
+.AdItem .frame_thumb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid #000;
+    opacity: .1;
+    filter: alpha(opacity=10)
+}
+
+.AdItem .info_ad {
+    overflow: hidden;
+    padding-right: 85px
+}
+
+.AdItem .tit_ad {
+    display: block;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: AppleSDGothicNeo-Medium,'Malgun Gothic','돋움',dotum,sans-serif;
+    color: #000;
+    letter-spacing: -1px
+}
+
+.AdItem .ico_ad {
+    display: inline-block;
+    overflow: hidden;
+    width: 24px;
+    height: 16px;
+    margin: 3px 0 0 5px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/adItem/ico_ad.png) no-repeat 0 0;
+    text-indent: -9999px;
+    vertical-align: top;
+    letter-spacing: -1px
+}
+
+.AdItem .desc_ad {
+    padding-top: 5px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #222
+}
+
+.os_mac .AdItem .tit_ad {
+    font-size: 17px;
+    letter-spacing: 0
+}
+
+.os_mac .AdItem .ico_ad {
+    margin-top: 1px
+}
+
+.os_mac .AdItem .desc_ad {
+    font-size: 13px;
+    letter-spacing: 0
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .AdItem .ico_ad {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/adItem/ico_ad2x.png);
+        background-size: 24px 16px
+    }
+
+    .searchHeader.HIDDEN ~ .keywordSearch .AdItem:before {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/info/shadow_info_section2x.png);
+        background-size: 1px 10px
+    }
+}
+
+.AddressFlagItemView {
+    overflow: hidden;
+    position: relative;
+    padding: 13px 20px 15px;
+    border-top: 1px solid #eee;
+    background-color: #fff;
+    cursor: pointer
+}
+
+.AddressFlagItemView:first-child {
+    border-top: 0 none
+}
+
+.AddressFlagItemView:hover {
+    z-index: 1;
+    background-color: #eff7ff
+}
+
+.AddressFlagItemView .name {
+    display: block;
+    overflow: hidden;
+    margin-right: 44px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #222;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.AddressFlagItemView .flag {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    width: 24px;
+    height: 34px;
+    margin: auto 0;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/flag_route.png) no-repeat;
+    text-indent: -9999px;
+    cursor: pointer
+}
+
+.AddressFlagItemView .Origin {
+    background-position: 0 -50px
+}
+
+.AddressFlagItemView .Via {
+    background-position: -30px -50px
+}
+
+.AddressFlagItemView .Dest {
+    background-position: -60px -50px
+}
+
+.os_mac .AddressFlagItemView {
+    padding: 15px 20px 12px
+}
+
+.os_mac .AddressFlagItemView .name {
+    font-size: 15px
+}
+
+.AddressFlagItemView-ACTIVE {
+    z-index: 1;
+    background-color: #eff7ff
+}
+
+.AddressFlagItemView-ACTIVE .flag {
+    display: block
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .AddressFlagItemView .flag {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/flag_route2x.png);
+        background-size: 110px 84px
+    }
+}
+
+.InfoWindow.AddressInfoWindow {
+    left: -203px;
+    width: 406px
+}
+
+.InfoWindow.AddressInfoWindow .content {
+    padding: 9px 20px 17px
+}
+
+.InfoWindow.AddressInfoWindow .address {
+    padding-top: 8px
+}
+
+.InfoWindow.AddressInfoWindow .name {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #919191;
+    vertical-align: top
+}
+
+.InfoWindow.AddressInfoWindow .related {
+    height: 17px;
+    margin-bottom: 1px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #222
+}
+
+.InfoWindow.AddressInfoWindow .related .txt {
+    padding-left: 3px
+}
+
+.InfoWindow.AddressInfoWindow .wrapZip {
+    height: 18px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #919191
+}
+
+.InfoWindow.AddressInfoWindow .deadAddr {
+    height: 17px;
+    padding-top: 4px;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: AppleSDGothicNeo-light;
+    color: #fd9727
+}
+
+.InfoWindow.AddressInfoWindow .deadAddr .img_tooltip {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin: -2px 4px 0 0;
+    background-position: -150px -330px
+}
+
+.InfoWindow.AddressInfoWindow .bar {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #e2e2e2;
+    vertical-align: -1px
+}
+
+.InfoWindow.AddressInfoWindow .report {
+    height: 17px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #3d75cc
+}
+
+.InfoWindow.AddressInfoWindow .contact {
+    padding-top: 3px;
+    white-space: nowrap
+}
+
+.InfoWindow.AddressInfoWindow .toolbar {
+    padding-bottom: 17px
+}
+
+.InfoWindow.AddressInfoWindow .head_tooltip+.toolbar {
+    padding-top: 17px
+}
+
+.InfoWindow.AddressInfoWindow .InfoWindowToolbar a {
+    width: 135px
+}
+
+.os_mac .InfoWindow.AddressInfoWindow .name {
+    font-size: 18px
+}
+
+.os_mac .InfoWindow.AddressInfoWindow .related {
+    font-size: 13px;
+    line-height: 17px
+}
+
+.os_mac .InfoWindow.AddressInfoWindow .wrapZip {
+    font-size: 13px;
+    line-height: 18px
+}
+
+.os_mac .InfoWindow.AddressInfoWindow .deadAddr {
+    font-size: 13px;
+    line-height: 17px
+}
+
+.os_mac .InfoWindow.AddressInfoWindow .deadAddr .img_tooltip {
+    margin-top: 0
+}
+
+.os_mac .InfoWindow.AddressInfoWindow .bar {
+    vertical-align: 0
+}
+
+.os_mac .InfoWindow.AddressInfoWindow .report {
+    font-size: 13px;
+    line-height: 18px
+}
+
+.InfoWindow.AddressInfoWindow .newaddr {
+    display: none;
+    float: left;
+    margin-right: 5px
+}
+
+.InfoWindow.AddressInfoWindow .desc {
+    display: none;
+    padding: 0 36px;
+    color: #888;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.InfoWindow.AddressInfoWindow-2depth .name {
+    font-size: 12px
+}
+
+.InfoWindow.AddressInfoWindow-2depth .desc {
+    display: block
+}
+
+.InfoWindow.AddressInfoWindow-2depth .newaddr {
+    display: inline-block;
+    vertical-align: top
+}
+
+.InfoWindow.AddressInfoWindow .hAddr {
+    margin: 6px 0 -4px 21px;
+    position: relative;
+    max-width: 263px;
+    padding-left: 37px
+}
+
+.InfoWindow.AddressInfoWindow.InfoWindow .hAddr .ico {
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2013/img/img_newico2.png) 0 -80px no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-indent: -9999px;
+    height: 14px;
+    width: 33px
+}
+
+.InfoWindow.AddressInfoWindow.InfoWindow .hAddr .txt {
+    position: relative;
+    top: -2px
+}
+
+.AddressItem {
+    position: relative;
+    padding: 7px 20px;
+    border-top: 1px solid #eee
+}
+
+.AddressItem:hover {
+    background-color: #eff7ff
+}
+
+.AddressItem:first-child {
+    border-top: 0 none
+}
+
+.AddressItem .utile_addr {
+    float: right;
+    position: relative
+}
+
+.AddressItem .link_fav {
+    float: right;
+    position: relative;
+    z-index: 11;
+    min-width: 30px;
+    min-height: 30px;
+    margin-left: 20px;
+    border: 1px solid #dbdbdb;
+    border-color: rgba(0,0,0,.14);
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+    letter-spacing: 0
+}
+
+.AddressItem .link_fav .ico_fav {
+    display: block;
+    overflow: hidden;
+    width: 10px;
+    height: 14px;
+    margin: 8px auto 0;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_fav.png) no-repeat 0 0;
+    text-indent: -9999px;
+    vertical-align: top
+}
+
+.AddressItem .link_fav .num {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 14px;
+    height: 14px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/num_fav.png) no-repeat;
+    text-indent: -9999px
+}
+
+.AddressItem .link_fav .num1 {
+    background-position: 0 0
+}
+
+.AddressItem .link_fav .num2 {
+    background-position: 0 -20px
+}
+
+.AddressItem .link_fav .num3 {
+    background-position: 0 -40px
+}
+
+.AddressItem .link_fav .num4 {
+    background-position: 0 -60px
+}
+
+.AddressItem .link_fav .num5 {
+    background-position: 0 -80px
+}
+
+.AddressItem .link_fav .num6 {
+    background-position: 0 -100px
+}
+
+.AddressItem .link_fav .num7 {
+    background-position: 0 -120px
+}
+
+.AddressItem .link_fav .num8 {
+    background-position: 0 -140px
+}
+
+.AddressItem .link_fav .num9 {
+    background-position: 0 -160px
+}
+
+.AddressItem .link_fav .num10 {
+    width: 15px;
+    background-position: 0 -180px
+}
+
+.AddressItem .link_fav.ACTIVE .ico_fav {
+    background-position: -10px 0
+}
+
+.AddressItem .link_fav.ACTIVE .num {
+    display: block
+}
+
+.AddressItem .txt_addr {
+    overflow: hidden;
+    padding: 5px 0 8px
+}
+
+.AddressItem .link_addr {
+    font-size: 14px;
+    line-height: 19px;
+    color: #222;
+    vertical-align: top
+}
+
+.AddressItem .wrapFolding {
+    margin-top: 3px;
+    clear: both
+}
+
+.AddressItem .wrapFolding .txt_older {
+    float: left;
+    margin-right: 4px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #919191
+}
+
+.AddressItem .wrapFolding .select_folder {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.AddressItem .wrapFolding .subList {
+    display: none
+}
+
+.AddressItem .wrapFolding.opened .subList {
+    display: block
+}
+
+.AddressItem .wrapFolding.opened .folder .ico_folder_addr {
+    background-position: -12px 0
+}
+
+.AddressItem .folder {
+    overflow: hidden;
+    position: relative;
+    padding-right: 20px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #222;
+    vertical-align: top
+}
+
+.AddressItem .folder .ico_folder_addr {
+    overflow: hidden;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/addressItem/ico_folder_addr.png) no-repeat 0 0
+}
+
+.AddressItem .subList li {
+    margin-top: 3px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #222
+}
+
+.AddressItem .wrapZip {
+    display: block;
+    margin-top: 2px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #919191
+}
+
+.AddressItem .wrapZip .bar {
+    margin-top: 4px
+}
+
+.AddressItem-ACTIVE {
+    background-color: #eff7ff
+}
+
+.os_mac .AddressItem .txt_addr {
+    padding: 8px 0 5px
+}
+
+.os_mac .AddressItem .link_addr {
+    font-size: 15px
+}
+
+.os_mac .AddressItem .wrapFolding .txt_older,.os_mac .AddressItem .folder {
+    font-size: 13px
+}
+
+.os_mac .AddressItem .folder .ico_folder_addr {
+    top: 2px
+}
+
+.os_mac .AddressItem .subList li,.os_mac .AddressItem .wrapZip {
+    font-size: 13px
+}
+
+.os_mac .AddressItem .wrapZip .bar {
+    margin-top: 2px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .AddressItem .link_fav .ico_fav {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_fav2x.png);
+        background-size: 20px 15px
+    }
+
+    .AddressItem .link_fav .num {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/num_fav2x.png);
+        background-size: 15px 194px
+    }
+
+    .AddressItem .folder .ico_folder_addr {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/addressItem/ico_folder_addr2x.png);
+        background-size: 24px 12px
+    }
+}
+
+.AreaToolDot {
+    display: block;
+    overflow: hidden;
+    width: 12px;
+    height: 12px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/tool/dot_blue.png) no-repeat
+}
+
+.AreaToolCloser {
+    display: block;
+    overflow: hidden;
+    margin-left: 10px;
+    width: 17px;
+    height: 17px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/tool/n_local_btn_17.png) no-repeat;
+    text-indent: -9999px
+}
+
+.AreaToolDetail {
+    overflow: hidden;
+    position: relative;
+    min-width: 172px;
+    margin: 11px 0 0 -7px;
+    border: 1px solid #f2f2f2;
+    border-color: rgba(0,0,0,.05);
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+    color: #444;
+    white-space: nowrap;
+    -webkit-box-shadow: 0 8px 10px 0 rgba(0,0,0,.2);
+    -moz-box-shadow: 0 8px 10px 0 rgba(0,0,0,.2);
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,.2);
+    cursor: default
+}
+
+.AreaToolDetail.freeze {
+    margin-left: 10px;
+    margin-top: 14px
+}
+
+.AreaToolDetail ul {
+    padding: 9px 25px 11px 14px;
+    background-color: #fff
+}
+
+.AreaToolDetail .detailToolLabel {
+    display: inline-block;
+    width: 50px
+}
+
+.AreaToolDetail strong {
+    font-weight: 500;
+    color: #f10000;
+    letter-spacing: 0
+}
+
+.AreaToolDetail sup {
+    vertical-align: top
+}
+
+.AreaToolDetail .detailToolClose {
+    overflow: hidden;
+    position: absolute;
+    top: 8.5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/tool/btn_close_s.png) no-repeat;
+    text-indent: -9999px
+}
+
+.AreaToolDetail .detailToolClose a {
+    display: block;
+    width: 20px;
+    height: 20px
+}
+
+.AreaToolDetail p {
+    padding: 7px 14px 8px;
+    border-top: 1px solid #f0f0f0;
+    font-weight: normal;
+    line-height: 18px;
+    background-color: #fafafa;
+    color: #666
+}
+
+.AreaToolDetail p em {
+    color: #444
+}
+
+.os_mac .AreaToolDetail {
+    font-size: 12px
+}
+
+.os_mac .AreaToolDetail ul {
+    padding: 11px 25px 9px 14px
+}
+
+.os_mac .AreaToolDetail p {
+    padding: 9px 14px 6px
+}
+
+.AreaToolDetail .HIDDEN+p {
+    border-top: 0 none
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .AreaToolDot {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/tool/dot_blue2x.png);
+        background-size: 12px 12px
+    }
+
+    .AreaToolCloser {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/tool/n_local_btn_172x.png);
+        background-size: 17px 17px
+    }
+
+    .AreaToolDetail .detailToolClose {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/tool/btn_close_s2x.png);
+        background-size: 20px 20px
+    }
+}
+
+.BikeFunctionToolBarView {
+    overflow: hidden;
+    position: relative;
+    border-top: 1px solid #ddd
+}
+
+.BikeFunctionToolBarView a {
+    float: left;
+    width: 129px;
+    height: 18px;
+    padding: 11px 0 10px;
+    font-size: 12px;
+    line-height: 14px;
+    background-color: #fff;
+    color: #444;
+    text-align: center;
+    text-decoration: none
+}
+
+.BikeFunctionToolBarView a:hover {
+    text-decoration: none
+}
+
+.BikeFunctionToolBarView .alook {
+    width: 130px;
+    border-left: 1px solid #eee
+}
+
+.BikeFunctionToolBarView .favorite {
+    border-left: 1px solid #eee
+}
+
+.BikeFunctionToolBarView .favorite .ico_fav {
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    width: 24px;
+    height: 24px;
+    margin: 0 2px 0 -3px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_fav_b.png) no-repeat 0 0;
+    vertical-align: top
+}
+
+.BikeFunctionToolBarView .favorite .num {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 14px;
+    height: 14px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/num_fav.png) no-repeat;
+    text-indent: -9999px
+}
+
+.BikeFunctionToolBarView .favorite .num1 {
+    background-position: 0 0
+}
+
+.BikeFunctionToolBarView .favorite .num2 {
+    background-position: 0 -20px
+}
+
+.BikeFunctionToolBarView .favorite .num3 {
+    background-position: 0 -40px
+}
+
+.BikeFunctionToolBarView .favorite .num4 {
+    background-position: 0 -60px
+}
+
+.BikeFunctionToolBarView .favorite .num5 {
+    background-position: 0 -80px
+}
+
+.BikeFunctionToolBarView .favorite .num6 {
+    background-position: 0 -100px
+}
+
+.BikeFunctionToolBarView .favorite .num7 {
+    background-position: 0 -120px
+}
+
+.BikeFunctionToolBarView .favorite .num8 {
+    background-position: 0 -140px
+}
+
+.BikeFunctionToolBarView .favorite .num9 {
+    background-position: 0 -160px
+}
+
+.BikeFunctionToolBarView .favorite .num10 {
+    width: 15px;
+    background-position: 0 -180px
+}
+
+.BikeFunctionToolBarView .favorite-active .ico_fav {
+    background-position: -24px 0
+}
+
+.BikeFunctionToolBarView .favorite-active .num {
+    display: block
+}
+
+.os_mac .BikeFunctionToolBarView a {
+    font-size: 13px;
+    line-height: 18px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BikeFunctionToolBarView .favorite .ico_fav {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_fav_b2x.png);
+        background-size: 48px 24px
+    }
+
+    .BikeFunctionToolBarView .favorite .num {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/num_fav2x.png);
+        background-size: 15px 194px
+    }
+}
+
+.BikePointItemView {
+    position: relative;
+    padding: 14px 62px 15px 60px;
+    cursor: pointer
+}
+
+.BikePointItemView:after {
+    position: absolute;
+    top: -1px;
+    left: 60px;
+    right: 0;
+    height: 1px;
+    background-color: #eee;
+    content: ''
+}
+
+.BikePointItemView:first-child:after {
+    content: none
+}
+
+.BikePointItemView .seqWrap {
+    position: absolute;
+    top: 21px;
+    left: 60px;
+    width: 20px;
+    height: 20px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/checkpointItem/ico_number_list_map.png) no-repeat 0 -30px
+}
+
+.BikePointItemView .seq {
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    padding-top: 4px;
+    font: 11px/1.2 Arial,sans-serif;
+    color: #666;
+    text-align: center;
+    vertical-align: top
+}
+
+.BikePointItemView.bigIndex .seqWrap {
+    left: 56px;
+    width: 28px;
+    background-position-x: -30px
+}
+
+.BikePointItemView.bigIndex .seq {
+    width: 28px
+}
+
+.BikePointItemView .bikeDetail {
+    display: table;
+    width: 100%;
+    height: 31px;
+    padding-top: 2px;
+    table-layout: fixed
+}
+
+.BikePointItemView .bikeDetail .innerDetail {
+    display: table-cell;
+    width: 100%;
+    padding-left: 30px;
+    line-height: 17px;
+    vertical-align: middle
+}
+
+.BikePointItemView .title {
+    display: block;
+    font-weight: 500;
+    font-size: 13px;
+    color: #222
+}
+
+.BikePointItemView .desc {
+    font-size: 12px;
+    color: #666;
+    word-wrap: break-word;
+    word-break: keep-all
+}
+
+.BikePointItemView .desc_caution {
+    color: #fd9727
+}
+
+.BikePointItemView .gradient {
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #4da7ff
+}
+
+.BikePointItemView .cautionIcon {
+    display: inline-block;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_atten.png) no-repeat;
+    vertical-align: -4px
+}
+
+.os_mac .BikePointItemView .title {
+    display: inline-block;
+    margin-bottom: 4px;
+    font-size: 14px;
+    vertical-align: top
+}
+
+.os_mac .BikePointItemView .desc,.os_mac .BikePointItemView .gradient {
+    font-size: 13px
+}
+
+.os_mac .BikePointItemView .cautionIcon {
+    vertical-align: -3px
+}
+
+.BikePointItemView .icons {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 28px
+}
+
+.BikePointItemView .action {
+    display: block;
+    overflow: hidden;
+    width: 28px;
+    height: 22px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_set.png) no-repeat;
+    text-indent: -9999px
+}
+
+.BikePointItemView .action-STRAIGHT {
+    background-position: 0 0
+}
+
+.BikePointItemView .action-TURN_LEFT {
+    background-position: 0 -30px
+}
+
+.BikePointItemView .action-TURN_RIGHT {
+    background-position: 0 -60px
+}
+
+.BikePointItemView .state-BIKE_CATEGORY_BIKE_NORMAL,.BikePointItemView .state-BIKE_CATEGORY_BIKE_WALK,.BikePointItemView .state-BIKE_CATEGORY_BIKE_CAR {
+    display: block;
+    overflow: hidden;
+    width: 24px;
+    height: 19px;
+    margin: 2px auto 0;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_set.png) no-repeat;
+    text-indent: -9999px
+}
+
+.BikePointItemView .state-BIKE_CATEGORY_BIKE_NORMAL {
+    background-position: -60px 0
+}
+
+.BikePointItemView .state-BIKE_CATEGORY_BIKE_WALK {
+    background-position: -60px -30px
+}
+
+.BikePointItemView .state-BIKE_CATEGORY_BIKE_CAR {
+    background-position: -60px -60px
+}
+
+.BikePointItemView .roadviewWrap {
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    right: 20px;
+    z-index: 10;
+    width: 32px;
+    height: 32px;
+    margin: auto
+}
+
+.BikePointItemView .roadview {
+    display: block;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/icon/ico_roadview.png) no-repeat;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px
+}
+
+.BikePointItemView .detailIcoWrap {
+    position: static
+}
+
+.BikePointItemView:hover {
+    background-color: #eff7ff
+}
+
+.BikePointItemView:hover .seqWrap {
+    background-position-y: 0
+}
+
+.BikePointItemView:hover .seq {
+    color: #fff
+}
+
+.BikePointItemView:hover .WalkTransitItemView {
+    background-color: #eff7ff
+}
+
+.BikePointItemView-ACTIVE {
+    background-color: #eff7ff
+}
+
+.BikePointItemView-ACTIVE .seqWrap {
+    background-position-y: 0
+}
+
+.BikePointItemView-ACTIVE .seq {
+    color: #fff
+}
+
+.BikePointItemView-ACTIVE .WalkTransitItemView {
+    background-color: #eff7ff
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BikePointItemView .seqWrap {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/checkpointItem/ico_number_list_map2x.png);
+        background-size: 88px 230px
+    }
+
+    .BikePointItemView .cautionIcon {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_atten2x.png);
+        background-size: 16px 16px
+    }
+
+    .BikePointItemView .action,.BikePointItemView .state-BIKE_CATEGORY_BIKE_NORMAL,.BikePointItemView .state-BIKE_CATEGORY_BIKE_WALK,.BikePointItemView .state-BIKE_CATEGORY_BIKE_CAR {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_set2x.png);
+        background-size: 88px 382px
+    }
+
+    .BikePointItemView .roadview {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/icon/ico_roadview2x.png);
+        background-size: 32px 32px
+    }
+}
+
+.BikeRouteItem {
+    background-color: #fff
+}
+
+.BikeRouteSummaryView {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    cursor: pointer
+}
+
+.BikeRouteSummaryView .mode {
+    font-size: 13px;
+    line-height: 17px;
+    color: #222
+}
+
+.BikeRouteSummaryView .contents {
+    padding: 18px 20px 19px
+}
+
+.BikeRouteSummaryView .contents .header {
+    overflow: hidden;
+    margin-top: 10px;
+    line-height: 24px
+}
+
+.BikeRouteSummaryView .time {
+    float: left;
+    font-weight: 600;
+    font-size: 19px;
+    color: #000
+}
+
+.BikeRouteSummaryView .distance {
+    float: left;
+    margin-left: 8px;
+    font-size: 13px;
+    color: #222
+}
+
+.BikeRouteSummaryView .info {
+    margin-top: 3px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666
+}
+
+.BikeRouteSummaryView .facilities,.BikeRouteSummaryView .calories {
+    display: inline
+}
+
+.BikeRouteSummaryView .info.addInfo .calories:before {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 0 8px 0 4px;
+    background-color: #e2e2e2;
+    content: ''
+}
+
+.BikeRouteSummaryView .selectBtn {
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    right: 21px;
+    z-index: 10;
+    width: 14px;
+    height: 14px;
+    padding: 2px;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px
+}
+
+.BikeRouteSummaryView .selectBtn:after {
+    display: block;
+    overflow: hidden;
+    width: 14px;
+    height: 14px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/btn_printarrow.png) no-repeat 0 0;
+    content: ''
+}
+
+.os_mac .BikeRouteSummaryView .mode {
+    font-size: 14px
+}
+
+.os_mac .BikeRouteSummaryView .time {
+    font-size: 20px
+}
+
+.os_mac .BikeRouteSummaryView .distance {
+    font-size: 14px
+}
+
+.os_mac .BikeRouteSummaryView .info {
+    font-size: 13px
+}
+
+.BikeRouteSummaryView:hover {
+    background-color: #eff7ff
+}
+
+.BikeRouteSummaryView:hover .mode {
+    font-weight: 600;
+    color: #1f8cff
+}
+
+.BikeRouteItem .detail {
+    display: none
+}
+
+.BikeRouteItem-HOVER .BikeRouteSummaryView {
+    background-color: #eff7ff
+}
+
+.BikeRouteItem-HOVER .BikeRouteSummaryView .mode {
+    font-weight: 600;
+    color: #1f8cff
+}
+
+.BikeRouteItem-DETAIL {
+    padding-bottom: 10px;
+    background: #fff url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/info/shadow_info_section.png) repeat-x 0 100%
+}
+
+.TransitRouteItem-DETAIL:last-child {
+    padding-bottom: 0;
+    background: 0
+}
+
+.TransitRouteItem-DETAIL.lst {
+    padding-bottom: 0;
+    background: 0
+}
+
+.BikeRouteItem-DETAIL .BikeRouteSummaryView .selectBtn:after {
+    background-position: -20px 0
+}
+
+.BikeRouteItem-DETAIL .BikeRouteSummaryView .mode {
+    font-weight: 600;
+    color: #1f8cff
+}
+
+.BikeRouteItem-DETAIL .detail {
+    display: block
+}
+
+.isCanvas .BikeRouteSummaryView {
+    padding: 0;
+    border-bottom: 1px solid #a9d1ff
+}
+
+.isCanvas .BikeRouteSummaryView .contents {
+    padding-bottom: 4px
+}
+
+.isCanvas .BikeRouteSummaryView .graph {
+    width: 390px;
+    height: 45px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BikeRouteSummaryView .selectBtn:after {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/btn_printarrow2x.png);
+        background-size: 34px 14px
+    }
+
+    .BikeRouteItem-DETAIL {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/info/shadow_info_section2x.png);
+        background-size: 1px 10px
+    }
+}
+
+.BikeRouteItem .list .StartEndPointItem {
+    border: 0
+}
+
+.BikeRouteItem .list .through {
+    border-top: 1px solid #f1f1f3
+}
+
+.BikeRouteItem .BikeGroupPointItemView .bikeSeqIcon {
+    left: 10px
+}
+
+.BikeRouteLegend {
+    position: absolute;
+    z-index: 3;
+    width: 108px;
+    height: 56px;
+    bottom: 30px;
+    right: 12px;
+    overflow: hidden
+}
+
+.ROADVIEW .BikeRouteLegend {
+    top: 5px;
+    left: 5px
+}
+
+.BikeRouteLegend .wrap {
+    height: 38px;
+    padding: 9px 0 9px 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/bikeRouteLegend/route_bicycle_road_notice.png) no-repeat 0 0
+}
+
+.BikeRouteLegend .wrap li {
+    height: 15px;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #000;
+    letter-spacing: -1px
+}
+
+.BikeRouteLegend .wrap li:first-child {
+    margin-bottom: 3px
+}
+
+.BikeRouteLegend .wrap li:before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 6px;
+    padding-right: 6px;
+    margin-top: 5px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/bikeRouteLegend/route_bicycle_road_notice.png) no-repeat;
+    vertical-align: top
+}
+
+.os_mac .BikeRouteLegend .wrap li {
+    font-size: 13px;
+    letter-spacing: 0
+}
+
+.BikeRouteLegend .wrap .normalRoad:before {
+    background-position: 0 -60px
+}
+
+.BikeRouteLegend .wrap .bikeRoad:before {
+    background-position: 0 -70px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BikeRouteLegend .wrap {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/bikeRouteLegend/route_bicycle_road_notice2x.png);
+        background-size: 108px auto
+    }
+
+    .BikeRouteLegend .wrap li:before {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/bikeRouteLegend/route_bicycle_road_notice2x.png);
+        background-size: 108px auto
+    }
+}
+
+.BikeRouteResultView {
+    background-color: #f9f9f9
+}
+
+.BikeRouteResultView .notice {
+    padding: 20px 20px 0;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: transparent;
+    color: #888
+}
+
+.BikeRouteResultView .notice .first,.BikeRouteResultView .notice .second {
+    display: block
+}
+
+.os_mac .BikeRouteResultView .notice {
+    font-size: 13px
+}
+
+.BikeRouteResultView .notice_detail {
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 1px;
+    background-color: white;
+    width: 256px;
+    border: 1px solid #cdcdcd;
+    padding: 15px 16px 2px 16px
+}
+
+.BikeRouteResultView .notice_detail h2 {
+    color: #000;
+    line-height: 21px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: normal
+}
+
+.BikeRouteResultView .notice_detail p {
+    color: #333;
+    font-size: 11px;
+    line-height: 16px;
+    color: #333;
+    margin-bottom: 10px
+}
+
+.BikeRouteResultView .notice_detail .close {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    padding: 4px;
+    cursor: pointer
+}
+
+.BikeRouteResultView .button {
+    display: block;
+    height: 31px;
+    margin: 15px auto 0;
+    width: 201px
+}
+
+.BikeRouteResultView .button .transitBtn {
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2011/map/walk/btn_road_search_111207.gif) -100px -62px no-repeat;
+    float: left;
+    height: 31px;
+    width: 101px;
+    text-indent: -9999px
+}
+
+.BikeRouteResultView .button .carBtn {
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2011/map/walk/btn_road_search_111207.gif) 0 -62px no-repeat;
+    float: left;
+    height: 31px;
+    width: 100px;
+    text-indent: -9999px
+}
+
+.BusItem {
+    padding: 16px 20px 13px;
+    border-top: 1px solid #eee
+}
+
+.BusItem:hover,.BusItem-icon-hover {
+    background-color: #eff7ff
+}
+
+.BusItem:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    content: ''
+}
+
+.BusItem:first-child {
+    border-top: 0 none
+}
+
+.BusItem .link_fav {
+    float: right;
+    position: relative;
+    min-width: 30px;
+    min-height: 30px;
+    margin: 3px 0 6px 20px;
+    border: 1px solid #dbdbdb;
+    border-color: rgba(0,0,0,.14);
+    border-radius: 4px;
+    text-align: center;
+    letter-spacing: 0
+}
+
+.BusItem .link_fav .ico_fav {
+    display: block;
+    overflow: hidden;
+    width: 10px;
+    height: 14px;
+    margin: 8px auto 0;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_fav.png) no-repeat 0 0;
+    text-indent: -9999px;
+    vertical-align: top
+}
+
+.BusItem .link_fav .num {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 14px;
+    height: 14px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/num_fav.png) no-repeat;
+    text-indent: -9999px
+}
+
+.BusItem .link_fav .num1 {
+    background-position: 0 0
+}
+
+.BusItem .link_fav .num2 {
+    background-position: 0 -20px
+}
+
+.BusItem .link_fav .num3 {
+    background-position: 0 -40px
+}
+
+.BusItem .link_fav .num4 {
+    background-position: 0 -60px
+}
+
+.BusItem .link_fav .num5 {
+    background-position: 0 -80px
+}
+
+.BusItem .link_fav .num6 {
+    background-position: 0 -100px
+}
+
+.BusItem .link_fav .num7 {
+    background-position: 0 -120px
+}
+
+.BusItem .link_fav .num8 {
+    background-position: 0 -140px
+}
+
+.BusItem .link_fav .num9 {
+    background-position: 0 -160px
+}
+
+.BusItem .link_fav .num10 {
+    width: 15px;
+    background-position: 0 -180px
+}
+
+.BusItem .link_fav.ACTIVE .ico_fav {
+    background-position: -10px 0
+}
+
+.BusItem .link_fav.ACTIVE .num {
+    display: block
+}
+
+.BusItem .para {
+    overflow: hidden
+}
+
+.BusItem .busline {
+    display: block;
+    overflow: hidden;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #888
+}
+
+.BusItem .bustype,.BusItem .startEnd .busarrow {
+    display: inline-block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_tooltip_190715.png) no-repeat;
+    text-indent: -9999px
+}
+
+.BusItem .bustype {
+    width: 24px;
+    height: 15px;
+    margin: 2px 2px 0 0;
+    vertical-align: top
+}
+
+.BusItem .direct {
+    background-position: 0 -289px
+}
+
+.BusItem .red {
+    background-position: 0 -306px
+}
+
+.BusItem .express {
+    background-position: 0 -323px
+}
+
+.BusItem .highway {
+    background-position: 0 -340px
+}
+
+.BusItem .blue {
+    background-position: -26px -289px
+}
+
+.BusItem .green {
+    background-position: -26px -306px
+}
+
+.BusItem .ma {
+    background-position: -26px -323px
+}
+
+.BusItem .external {
+    background-position: -26px -340px
+}
+
+.BusItem .general {
+    background-position: -52px -289px
+}
+
+.BusItem .yellow {
+    background-position: -52px -306px
+}
+
+.BusItem .air {
+    background-position: -52px -323px
+}
+
+.BusItem .sit {
+    background-position: -52px -340px
+}
+
+.BusItem .intercity {
+    background-position: -78px -289px
+}
+
+.BusItem .rural {
+    width: 34px;
+    background-position: -104px -289px
+}
+
+.BusItem .name {
+    font-weight: 500;
+    font-size: 17px;
+    color: #000;
+    letter-spacing: 0
+}
+
+.BusItem .subname {
+    font-size: 15px;
+    line-height: 19px;
+    color: #000;
+    vertical-align: top
+}
+
+.BusItem .addr {
+    margin-left: 4px;
+    line-height: 16px;
+    vertical-align: 1px
+}
+
+.BusItem .startEnd {
+    overflow: hidden;
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    clear: both
+}
+
+.BusItem .startEnd .busarrow {
+    width: 14px;
+    height: 7px;
+    margin: 6px 6px 0;
+    background-position: -228px -102px;
+    vertical-align: top
+}
+
+.os_mac .BusItem .bustype {
+    margin-top: 0
+}
+
+.os_mac .BusItem .startEnd .busarrow {
+    margin-top: 4px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BusItem .link_fav .ico_fav {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_fav2x.png);
+        background-size: 20px 15px
+    }
+
+    .BusItem .link_fav .num {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/num_fav2x.png);
+        background-size: 15px 194px
+    }
+
+    .BusItem .bustype,.BusItem .startEnd .busarrow {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_tooltip2x_190715.png);
+        background-size: 273px 504px
+    }
+}
+
+.BusLineView .img_BusLineView,.BusLineView .busType,.BusLineView .arrow {
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_tooltip_190715.png) no-repeat
+}
+
+.BusLineView .img_BusLineView {
+    display: inline-block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top
+}
+
+.BusLineView {
+    overflow: hidden;
+    position: absolute;
+    top: 59px;
+    left: 57px;
+    z-index: 300;
+    width: 356px
+}
+
+body.collapse .BusLineView {
+    left: 37px
+}
+
+.BusLineView .headbg {
+    overflow: hidden;
+    height: 4px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/pannel_headbg.png) no-repeat
+}
+
+.BusLineView .busLineWrap {
+    position: relative;
+    padding: 0 3px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/pannel_busLineWrap.png) repeat-y
+}
+
+.BusLineView .bottombg {
+    overflow: hidden;
+    height: 8px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/pannel_bottombg.png) no-repeat
+}
+
+.BusLineView .ico_min {
+    position: absolute;
+    top: 11px;
+    right: 49px;
+    width: 32px;
+    height: 32px;
+    background-position: -228px -36px
+}
+
+.BusLineView .ico_close {
+    position: absolute;
+    top: 11px;
+    right: 14px;
+    width: 32px;
+    height: 32px;
+    background-position: -228px -68px
+}
+
+.BusLineView .summary {
+    padding: 15px 20px 12px
+}
+
+.BusLineView .tit_summary {
+    display: block;
+    overflow: hidden;
+    margin-right: 30px;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000
+}
+
+.BusLineView .busType {
+    display: inline-block;
+    overflow: hidden;
+    width: 24px;
+    height: 15px;
+    margin: 6px 4px 0 0;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top
+}
+
+.BusLineView .direct {
+    background-position: 0 -289px
+}
+
+.BusLineView .red {
+    background-position: 0 -306px
+}
+
+.BusLineView .express {
+    background-position: 0 -323px
+}
+
+.BusLineView .highway {
+    background-position: 0 -340px
+}
+
+.BusLineView .blue {
+    background-position: -26px -289px
+}
+
+.BusLineView .green {
+    background-position: -26px -306px
+}
+
+.BusLineView .ma {
+    background-position: -26px -323px
+}
+
+.BusLineView .external {
+    background-position: -26px -340px
+}
+
+.BusLineView .general {
+    background-position: -52px -289px
+}
+
+.BusLineView .yellow {
+    background-position: -52px -306px
+}
+
+.BusLineView .air {
+    background-position: -52px -323px
+}
+
+.BusLineView .sit {
+    background-position: -52px -340px
+}
+
+.BusLineView .intercity {
+    background-position: -78px -289px
+}
+
+.BusLineView .rural {
+    width: 34px;
+    background-position: -104px -289px
+}
+
+.BusLineView .totalPath {
+    overflow: hidden;
+    height: 18px;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666
+}
+
+.BusLineView .arrow {
+    display: inline-block;
+    width: 14px;
+    height: 7px;
+    margin: 5px 7px 0;
+    background-position: -228px -102px;
+    vertical-align: top
+}
+
+.BusLineView .info {
+    height: 18px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666
+}
+
+.BusLineView .info .empty {
+    color: #919191
+}
+
+.BusLineView .info_nobus {
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #fd9727
+}
+
+.BusLineView .info_nobus .img_BusLineView {
+    float: left;
+    overflow: hidden;
+    width: 14px;
+    height: 14px;
+    margin: 4px 4px 0 0;
+    background-position: -150px -330px
+}
+
+.BusLineView .first_line {
+    margin-top: 1px
+}
+
+.BusLineView .bar {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 3px 5px 0;
+    background-color: #e2e2e2;
+    vertical-align: top
+}
+
+.BusLineView .contact {
+    height: 18px;
+    padding-top: 3px
+}
+
+.BusLineView .contact a {
+    height: 17px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #3d75cc
+}
+
+.BusLineView .infoEtc {
+    margin-top: 14px;
+    padding: 1px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/bg_infoEtc.png) no-repeat
+}
+
+.BusLineView .infoEtc:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    content: ''
+}
+
+.BusLineView .infoEtc a {
+    float: left;
+    width: 153px;
+    height: 24px;
+    padding: 4px 0;
+    border-left: 1px solid #ddd;
+    text-align: center
+}
+
+.BusLineView .infoEtc a:first-child {
+    width: 154px
+}
+
+.BusLineView .infoEtc a:hover {
+    text-decoration: none
+}
+
+.BusLineView .infoEtc a .img_BusLineView {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: top
+}
+
+.BusLineView .infoEtc .num {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: 3px;
+    left: 50%;
+    width: 14px;
+    height: 14px;
+    margin-left: -1px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/num_fav.png) no-repeat;
+    text-indent: -9999px
+}
+
+.BusLineView .infoEtc .num1 {
+    background-position: 0 0
+}
+
+.BusLineView .infoEtc .num2 {
+    background-position: 0 -20px
+}
+
+.BusLineView .infoEtc .num3 {
+    background-position: 0 -40px
+}
+
+.BusLineView .infoEtc .num4 {
+    background-position: 0 -60px
+}
+
+.BusLineView .infoEtc .num5 {
+    background-position: 0 -80px
+}
+
+.BusLineView .infoEtc .num6 {
+    background-position: 0 -100px
+}
+
+.BusLineView .infoEtc .num7 {
+    background-position: 0 -120px
+}
+
+.BusLineView .infoEtc .num8 {
+    background-position: 0 -140px
+}
+
+.BusLineView .infoEtc .num9 {
+    background-position: 0 -160px
+}
+
+.BusLineView .infoEtc .num10 {
+    margin-left: -2px;
+    width: 15px;
+    background-position: 0 -180px
+}
+
+.BusLineView .infoEtc .ICON-fav {
+    background: 0;
+    border-left: 0 none
+}
+
+.BusLineView .infoEtc .ICON-fav .img_BusLineView {
+    background-position: -76px -138px
+}
+
+.BusLineView .infoEtc .ICON-fav.ACTIVE .img_BusLineView {
+    background-position: -76px -162px
+}
+
+.BusLineView .infoEtc .ICON-fav.ACTIVE .num {
+    display: block
+}
+
+.BusLineView .infoEtc .fit .txt_fit {
+    display: block;
+    height: 16px;
+    padding: 4px 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #222
+}
+
+.BusLineView .infoEtc .busFiyBtn .img_BusLineView {
+    background-position: -148px -138px
+}
+
+.BusLineView .progressbar {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -1px;
+    padding: 0 15px 0 20px;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    background-color: #f9f9f9
+}
+
+.BusLineView .providerName {
+    float: left;
+    padding: 5px 0 6px;
+    font-size: 11px;
+    line-height: 17px;
+    color: #444
+}
+
+.BusLineView .BusLoadProgressBar {
+    float: right
+}
+
+.BusLineView .scroll {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    height: 290px;
+    border-top: 1px solid #e2e2e2
+}
+
+.BusLineView .summary .detailInfoBtn {
+    float: right;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #444
+}
+
+.BusLineView .summary .detailInfoBtn .img_BusLineView {
+    float: right;
+    width: 12px;
+    height: 12px;
+    margin: 4px 0 0 2px;
+    background-position: -90px -229px
+}
+
+.BusLineView .summary.detail .detailInfoBtn .img_BusLineView {
+    background-position: -90px -243px
+}
+
+.BusLineView .detailInfo {
+    padding: 12px 18px 13px;
+    border-top: 1px solid #e2e2e2;
+    font-size: 12px
+}
+
+.BusLineView .detailInfo>[data-id] {
+    padding-bottom: 17px
+}
+
+.BusLineView .detailInfo>[data-id]:last-child {
+    padding: 0
+}
+
+.BusLineView .detailInfo .title {
+    display: block;
+    height: 17px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    line-height: 15px;
+    color: #444
+}
+
+.BusLineView .detailInfo .desc_interval {
+    height: 20px;
+    line-height: 18px;
+    color: #939393
+}
+
+.BusLineView .detailInfo .desc_interval em {
+    color: #565656
+}
+
+.BusLineView .detailInfo .num_help {
+    color: #565656
+}
+
+.BusLineView .detailInfo table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.BusLineView .detailInfo th {
+    width: 32px;
+    padding-top: 4px;
+    vertical-align: top
+}
+
+.BusLineView .detailInfo td {
+    font-size: 13px;
+    line-height: 20px;
+    color: #939393
+}
+
+.BusLineView .detailInfo td em {
+    display: inline-block;
+    min-width: 85px;
+    color: #565656;
+    letter-spacing: 0
+}
+
+.BusLineView .detailInfo .img_BusLineView {
+    display: block;
+    width: 24px;
+    height: 15px
+}
+
+.BusLineView .detailInfo .badge_start {
+    background-position: -140px -289px
+}
+
+.BusLineView .detailInfo .badge_episode {
+    background-position: -166px -289px
+}
+
+.BusLineView .detailInfo .noInterval table {
+    margin-bottom: 0
+}
+
+.BusLineView .busProviderInfo {
+    overflow: hidden;
+    padding: 12px 18px 9px 0;
+    border-top: 1px solid #e2e2e2
+}
+
+.BusLineView .trafficInfo {
+    float: right
+}
+
+.BusLineView .trafficInfo .txt {
+    float: left;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #444
+}
+
+.BusLineView .trafficInfo .img_BusLineView {
+    float: left;
+    width: 76px;
+    height: 4px;
+    margin: 5px 6px 0 7px;
+    background-position: -94px -443px
+}
+
+.os_mac .BusLineView .tit_summary {
+    font-size: 20px
+}
+
+.os_mac .BusLineView .busType {
+    margin-top: 2px
+}
+
+.os_mac .BusLineView .totalPath {
+    font-size: 13px;
+    line-height: 18px
+}
+
+.os_mac .BusLineView .info {
+    font-size: 13px;
+    line-height: 18px
+}
+
+.os_mac .BusLineView .info_nobus {
+    font-size: 13px
+}
+
+.os_mac .BusLineView .info_nobus .img_BusLineView {
+    margin-top: 1px
+}
+
+.os_mac .BusLineView .contact a {
+    font-size: 13px;
+    line-height: 18px
+}
+
+.os_mac .BusLineView .infoEtc .fit .txt_fit {
+    font-size: 13px;
+    line-height: 16px
+}
+
+.os_mac .BusLineView .providerName {
+    padding: 6px 0 5px;
+    font-size: 12px
+}
+
+.os_mac .BusLineView .summary .detailInfoBtn .img_BusLineView {
+    margin-top: 1px
+}
+
+.os_mac .BusLineView .detailInfo {
+    font-size: 13px
+}
+
+.os_mac .BusLineView .detailInfo .title {
+    line-height: 17px
+}
+
+.os_mac .BusLineView .detailInfo .desc_interval {
+    line-height: 20px
+}
+
+.os_mac .BusLineView .detailInfo th {
+    padding-top: 2px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BusLineView .img_BusLineView,.BusLineView .busType,.BusLineView .arrow {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_tooltip2x_190715.png);
+        background-size: 273px 504px
+    }
+
+    .BusLineView .headbg {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/pannel_headbg2x.png);
+        background-size: 356px 4px
+    }
+
+    .BusLineView .busLineWrap {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/pannel_busLineWrap2x.png);
+        background-size: 356px 1px
+    }
+
+    .BusLineView .bottombg {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/pannel_bottombg2x.png);
+        background-size: 356px 8px
+    }
+
+    .BusLineView .infoEtc {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/bg_infoEtc2x.png);
+        background-size: 310px 34px
+    }
+
+    .BusLineView .infoEtc .num {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/num_fav2x.png);
+        background-size: 15px 194px
+    }
+}
+
+.BusLineView .noRealBusBar {
+    display: none;
+    float: right;
+    height: 26px
+}
+
+.noRealBusBar .noReadlBusText {
+    color: #999;
+    font-weight: normal;
+    letter-spacing: -1px;
+    padding: 1px 0 0 0
+}
+
+.BusLineView .noRealBusBar-ACTIVE {
+    display: block
+}
+
+.BusLineView .detailInfo .pointTitle a {
+    color: #476ff3;
+    font-weight: normal;
+    font-size: 11px
+}
+
+.BusLineView .detailInfo .pointTitle span {
+    color: #888;
+    font-weight: normal;
+    font-size: 11px
+}
+
+.BusLineView .summary.detail .detailInfoBtn {
+    background-position: 100% -236px
+}
+
+.BusLineView .summary.detail .detailInfo {
+    display: block
+}
+
+.BusLineView .detailInfo .singleStartColum .turningPoint,.BusLineView .detailInfo .singleStartColum .turningPointTime,.BusLineView .detailInfo .singleTurningColum .startPoint,.BusLineView .detailInfo .singleTurningColum .startPointTime {
+    display: none
+}
+
+.BusLineView .BusNumberLineItemView .busNumberWrap .BusLineView .detailInfo .singleStartColum .startPoint,.BusLineView .detailInfo .singleStartColum .startPointTime,.BusLineView .detailInfo .singleTurningColum .turningPoint,.BusLineView .detailInfo .singleTurningColum .turningPointTime {
+    width: 220px
+}
+
+.BusLineView .busProviderLogo {
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2016/pc/img_provide7.png) no-repeat;
+    display: block;
+    height: 15px;
+    width: 100px;
+    float: right;
+    margin: 7px 16px 0 0
+}
+
+.BusLineView .seoul {
+    background-position: 0 0
+}
+
+.BusLineView .cheongju {
+    background-position: 0 -21px
+}
+
+.BusLineView .busan {
+    background-position: 0 -42px
+}
+
+.BusLineView .kyunggi {
+    background-position: 0 -63px
+}
+
+.BusLineView .daejeon {
+    background-position: 0 -84px
+}
+
+.BusLineView .yeosu {
+    background-position: 0 -105px
+}
+
+.BusLineView .jeonju {
+    background-position: 0 -126px
+}
+
+.BusLineView .pohang {
+    background-position: 0 -147px
+}
+
+.BusLineView .suncheon {
+    background-position: 0 -168px
+}
+
+.BusLineView .incheon {
+    background-position: 0 -189px
+}
+
+.BusLineView .daegu {
+    background-position: 0 -210px
+}
+
+.BusLineView .ulsan {
+    background-position: 0 -231px
+}
+
+.BusLineView .gwangju {
+    background-position: 0 -252px
+}
+
+.BusLineView .jeju {
+    background-position: 0 -273px
+}
+
+.BusLineView .gimhae {
+    background-position: 0 -294px
+}
+
+.BusLineView .changwon {
+    background-position: 0 -315px
+}
+
+.BusLineView .yangsan {
+    background-position: 0 -336px
+}
+
+.BusLineView .jinju {
+    background-position: 0 -357px
+}
+
+.BusLineView .gyeongsan {
+    background-position: 0 -378px
+}
+
+.BusLineView .sejong {
+    background-position: 0 -399px
+}
+
+.BusLineView .cheonan {
+    background-position: 0 -420px
+}
+
+.BusLineView .asan {
+    background-position: 0 -441px
+}
+
+.BusLineView .chuncheon {
+    background-position: 0 -462px
+}
+
+.BusLineView .wonju {
+    background-position: 0 -483px
+}
+
+.BusLineView .tongyeong {
+    background-position: 0 -504px
+}
+
+.BusLineView .geoje {
+    background-position: 0 -525px
+}
+
+.BusLineView .gwangyang {
+    background-position: 0 -546px
+}
+
+.BusLineView .blank {
+    background-position: 0 -999px
+}
+
+.BusLineView .trafficInfo .link {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 15px;
+    height: 17px;
+    margin-left: 5px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2014/img/ico_alert.png) no-repeat 0 1px;
+    margin-right: 8px
+}
+
+.BusLoadProgressBar h6 {
+    display: inline;
+    float: left;
+    margin: 6px 8px 0 16px;
+    font-family: Dotum,sans-serif;
+    font-size: 11px;
+    color: #4f69e9;
+    font-weight: bolder;
+    letter-spacing: -1px
+}
+
+.BusLoadProgressBar .nobus {
+    position: relative;
+    float: right;
+    margin: 2px 4px 0 0;
+    font-family: Dotum,sans-serif;
+    font-size: 11px;
+    color: #222;
+    letter-spacing: -1px
+}
+
+.BusLoadProgressBar .gauge {
+    float: right;
+    width: 44px;
+    height: 7px;
+    margin: 10px 7px 0 0;
+    background: no-repeat 0 0 url(//t1.daumcdn.net/localimg/localimages/07/2011/map/bus/ico_bar.gif)
+}
+
+.BusLoadProgressBar .progress {
+    float: left;
+    width: 0;
+    height: 7px;
+    background: no-repeat 0 -25px url(//t1.daumcdn.net/localimg/localimages/07/2011/map/bus/ico_bar.gif)
+}
+
+.BusLoadProgressBar .updated .ico_updated,.BusLoadProgressBar .reload {
+    overflow: hidden;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_tooltip_190715.png) no-repeat
+}
+
+.BusLoadProgressBar .updated {
+    display: none;
+    float: right;
+    padding: 2px 4px 0 0;
+    font-size: 11px;
+    line-height: 20px;
+    color: #555;
+    color: rgba(68,68,68,.9);
+    text-align: right
+}
+
+.BusLoadProgressBar .updated .ico_updated {
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin: 3px 3px 0 0;
+    background-position: -130px -306px
+}
+
+.BusLoadProgressBar .timestamp {
+    float: left;
+    height: 20px;
+    padding: 4px 4px 4px 0;
+    font-size: 11px;
+    line-height: 20px;
+    color: #929292
+}
+
+.BusLoadProgressBar .timestamp .txt_date {
+    margin-right: 4px
+}
+
+.BusLoadProgressBar .reload {
+    float: left;
+    width: 28px;
+    height: 28px;
+    font-size: 0;
+    line-height: 0;
+    background-position: -100px -306px;
+    text-indent: -9999px
+}
+
+.os_mac .BusLoadProgressBar .updated {
+    padding-top: 5px;
+    font-size: 12px
+}
+
+.os_mac .BusLoadProgressBar .updated .ico_updated {
+    margin-top: 0
+}
+
+.os_mac .BusLoadProgressBar .timestamp {
+    padding: 5px 4px 3px 0;
+    font-size: 12px
+}
+
+.BusLoadProgressBar-ACTIVE {
+    display: block
+}
+
+.BusLoadProgressBar-UPDATED .updated {
+    display: block
+}
+
+.BusLoadProgressBar-UPDATED .nobus,.BusLoadProgressBar-UPDATED .timestamp,.BusLoadProgressBar-UPDATED .reload {
+    display: none
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BusLoadProgressBar .updated .ico_updated,.BusLoadProgressBar .reload {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_tooltip2x_190715.png);
+        background-size: 273px 504px
+    }
+}
+
+.BusMessageView:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    content: ''
+}
+
+.BusMessageView .line:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    content: ''
+}
+
+.BusMessageView .wrap {
+    float: left;
+    min-width: 80px;
+    max-width: 100%;
+    margin-right: 12px;
+    position: relative;
+    cursor: pointer
+}
+
+.BusSearch .number.HIDDEN+.stop+.region.HIDDEN ~ .BusResult .wrap {
+    width: auto!important;
+    min-width: 80px
+}
+
+.BusSearch .number.HIDDEN+.stop+.region.HIDDEN ~ .BusResult .wrap .suggest {
+    min-width: 100%;
+    box-sizing: border-box
+}
+
+.BusSearch .number.HIDDEN+.stop+.region.HIDDEN ~ .BusResult .lastparagraph {
+    margin-top: -11px
+}
+
+.BusMessageView .wrap a {
+    display: block;
+    overflow: hidden;
+    background-color: #fff;
+    text-decoration: none
+}
+
+.BusMessageView .label {
+    position: relative;
+    z-index: 20;
+    padding: 7px 31px 10px 11px;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/messageView/ico_sort_arrow.png) no-repeat 100% 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.BusMessageView .expand .label {
+    border-color: #5aa9fd;
+    background-position: 100% -6px
+}
+
+.BusMessageView .suggest {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    width: 100%;
+    max-height: 160px;
+    padding: 4px 0;
+    border: 1px solid #e2e2e2;
+    border-radius: 0 0 2px 2px;
+    background-color: #fff;
+    box-sizing: border-box
+}
+
+.BusMessageView .suggest .link_option {
+    padding: 6px 11px 9px
+}
+
+.BusMessageView .suggest .link_option:hover {
+    background-color: #f8f8f8
+}
+
+.BusMessageView .text {
+    position: relative;
+    top: -2px;
+    margin-bottom: -10px;
+    padding-top: 2px;
+    line-height: 34px
+}
+
+.os_mac .BusMessageView .label {
+    padding: 9px 31px 8px 11px
+}
+
+.os_mac .BusMessageView .suggest .link_option {
+    padding: 8px 11px 7px
+}
+
+.os_mac .BusMessageView .text {
+    top: 0
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BusMessageView .label {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/messageView/ico_sort_arrow2x.png);
+        background-size: 21px 26px
+    }
+}
+
+.BusNumberLineItemView .ICON-fav,.BusNumberLineItemView .line .point {
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_tooltip_190531.png) no-repeat
+}
+
+.BusNumberLineItemView .nocircle .point {
+    background: 0
+}
+
+.BusNumberLineItemView {
+    position: relative;
+    padding-left: 80px
+}
+
+.BusNumberLineItemView:first-child .busNumberWrap {
+    border-top: 0 none
+}
+
+.BusNumberLineItemView .busNumberWrap {
+    position: relative;
+    padding: 8px 58px 3px 24px;
+    border-top: 1px solid #eee;
+    cursor: pointer
+}
+
+.BusNumberLineItemView .busNumberWrap:hover {
+    background-color: #eff7ff;
+    background-color: rgba(51,150,255,.05)
+}
+
+.BusNumberLineItemView .busstop {
+    display: block;
+    overflow: hidden;
+    height: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #222;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.BusNumberLineItemView .pass {
+    color: #919191
+}
+
+.BusNumberLineItemView .busid {
+    overflow: hidden;
+    height: 15px;
+    margin-top: 2px;
+    font-size: 11px;
+    line-height: 13px;
+    color: #888;
+    text-overflow: ellipsis
+}
+
+.BusNumberLineItemView .noBusid ~ .busid {
+    display: none
+}
+
+.BusNumberLineItemView .nonstop {
+    display: block;
+    margin-top: 2px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #919191
+}
+
+.BusNumberLineItemView .ICON-fav {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 19px;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    font-size: 0;
+    line-height: 0;
+    background-position: -78px -306px;
+    text-indent: -9999px
+}
+
+.BusNumberLineItemView .ICON-fav.ACTIVE {
+    background-position: -78px -328px
+}
+
+.BusNumberLineItemView .ICON-fav.DISABLE {
+    background-position: -170px -306px
+}
+
+.BusNumberLineItemView .line {
+    position: absolute;
+    top: -1px;
+    bottom: 0;
+    left: -3px
+}
+
+.BusNumberLineItemView .line .pointBar {
+    display: block;
+    width: 4px;
+    height: 100%;
+    background-color: #a5a5a5
+}
+
+.BusNumberLineItemView .line .speedBar {
+    position: absolute;
+    top: -50%;
+    left: 0;
+    z-index: 10;
+    width: 4px;
+    height: 100%
+}
+
+.BusNumberLineItemView .line .green {
+    background-color: #0eca0e
+}
+
+.BusNumberLineItemView .line .yellow {
+    background-color: #ffce00
+}
+
+.BusNumberLineItemView .line .orange {
+    background-color: #fc7716
+}
+
+.BusNumberLineItemView .line .red {
+    background-color: #ed3e3e
+}
+
+.BusNumberLineItemView .line .grey {
+    background-color: #a5a5a5
+}
+
+.BusNumberLineItemView .line .point {
+    position: absolute;
+    top: 18px;
+    left: -4px;
+    z-index: 20;
+    width: 12px;
+    height: 12px;
+    background-position: -80px -443px
+}
+
+.BusNumberLineItemView .turningpoint {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -38px;
+    z-index: 20;
+    width: 46px;
+    height: 20px;
+    margin: auto 0;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/tooltip_list_bus_turn.png) no-repeat;
+    text-indent: -9999px
+}
+
+.BusNumberLineItemView:first-child .line {
+    top: 23px
+}
+
+.BusNumberLineItemView:first-child .line .speedBar {
+    top: 0
+}
+
+.BusNumberLineItemView:first-child .point {
+    top: -6px
+}
+
+.BusNumberLineItemView:last-child .line {
+    bottom: 23px
+}
+
+.os_mac .BusNumberLineItemView .busstop {
+    font-size: 13px;
+    line-height: 16px
+}
+
+.os_mac .BusNumberLineItemView .busid {
+    font-size: 12px;
+    line-height: 15px
+}
+
+.os_mac .BusNumberLineItemView .nonstop {
+    font-size: 12px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BusNumberLineItemView .ICON-fav,.BusNumberLineItemView .line .point {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_tooltip2x_190531.png);
+        background-size: 273px 504px
+    }
+
+    .BusNumberLineItemView .turningpoint {
+        background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/tooltip_list_bus_turn2x.png);
+        background-size: 46px 20px
+    }
+}
+
+.BusNumberLineItemView .noBusid {
+    padding: 7px 0 10px
+}
+
+.BusNumberLineItemView .board {
+    padding-left: 25px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2011/icon/ico_ride2.gif) no-repeat 0 5px
+}
+
+.BusNumberLineItemView .change {
+    padding-left: 25px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2011/icon/ico_change2.gif) no-repeat 0 5px
+}
+
+.BusPositionView {
+    position: absolute;
+    z-index: 30
+}
+
+.BusPositionView .position {
+    position: absolute;
+    left: 71px
+}
+
+.BusPositionView .position .icon {
+    overflow: hidden;
+    position: absolute;
+    top: -10px;
+    left: -1px;
+    z-index: 10;
+    width: 18px;
+    height: 20px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_tooltip_190715.png) no-repeat
+}
+
+.BusPositionView .position .red,.BusPositionView .position .red.second,.BusPositionView .position .direct,.BusPositionView .position .direct.second,.BusPositionView .position .express {
+    background-position: 0 -421px
+}
+
+.BusPositionView .position .blue {
+    background-position: -20px -421px
+}
+
+.BusPositionView .position .green,.BusPositionView .position .ma,.BusPositionView .position .external {
+    background-position: -40px -421px
+}
+
+.BusPositionView .position .yellow {
+    background-position: -60px -421px
+}
+
+.BusPositionView .position .air {
+    background-position: -80px -421px
+}
+
+.BusPositionView .position .general {
+    background-position: -100px -421px
+}
+
+.BusPositionView .position .sit {
+    background-position: -120px -421px
+}
+
+.BusPositionView .position .rural {
+    background-position: -160px -421px
+}
+
+.BusPositionView .position .intercity {
+    background-position: -180px -421px
+}
+
+.BusPositionView .position .red.second,.BusPositionView .position .direct.second {
+    top: -13px;
+    width: 26px;
+    height: 24px;
+    background-position: -52px -443px
+}
+
+.BusPositionView .position .first {
+    top: -12px;
+    width: 24px;
+    height: 24px;
+    background-position: -26px -443px
+}
+
+.BusPositionView .position .last {
+    top: -12px;
+    width: 24px;
+    height: 24px;
+    background-position: 0 -443px
+}
+
+.BusPositionView .position .name {
+    position: absolute;
+    top: -8px;
+    right: 5px;
+    z-index: 30;
+    font-size: 0;
+    white-space: nowrap
+}
+
+.BusPositionView .position .name .fst {
+    display: inline-block;
+    width: 5px;
+    height: 17px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busPositionView/combined_fst.png) no-repeat;
+    vertical-align: top
+}
+
+.BusPositionView .position .name .contents {
+    display: inline-block;
+    height: 17px;
+    font-size: 10px;
+    line-height: 17px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busPositionView/combined_contents.png) repeat-x;
+    color: #666;
+    vertical-align: top
+}
+
+.BusPositionView .position .name .contents .num,.BusPositionView .position .name .contents .red,.BusPositionView .position .name .contents .blue {
+    position: relative;
+    top: -1px
+}
+
+.BusPositionView .position .name .contents .red {
+    color: #ee563a
+}
+
+.BusPositionView .position .name .contents .blue {
+    color: #6175f5
+}
+
+.BusPositionView .position .name .lst {
+    display: inline-block;
+    width: 9px;
+    height: 17px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busPositionView/combined_lst.png) no-repeat;
+    vertical-align: top
+}
+
+.os_mac .BusPositionView .position .name .contents {
+    font-size: 11px
+}
+
+.os_mac .BusPositionView .position .name .contents .num,.os_mac .BusPositionView .position .name .contents .red,.os_mac .BusPositionView .position .name .contents .blue {
+    top: 0
+}
+
+.BusPositionView .position .name.twoLines {
+    bottom: -20px
+}
+
+.BusPositionView .position .name.twoLines .fst {
+    height: 33px;
+    background-position-y: -536px
+}
+
+.BusPositionView .position .name.twoLines .contents {
+    height: 30px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2012/img/pannel_tooltip_07.gif);
+    line-height: 1.3
+}
+
+.BusPositionView .position .name.twoLines .contents .delay {
+    color: red
+}
+
+.BusPositionView .position .name.twoLines .lst {
+    height: 33px;
+    background-position-y: -536px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BusPositionView .position .icon {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_tooltip2x_190715.png);
+        background-size: 273px 504px
+    }
+
+    .BusPositionView .position .name .fst {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busPositionView/combined_fst2x.png);
+        background-size: 5px 17px
+    }
+
+    .BusPositionView .position .name .contents {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busPositionView/combined_contents2x.png);
+        background-size: 1px 17px
+    }
+
+    .BusPositionView .position .name .lst {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busPositionView/combined_lst2x.png);
+        background-size: 9px 17px
+    }
+}
+
+.BusSearch {
+    position: relative;
+    height: inherit
+}
+
+.BusSearch .removeAll {
+    overflow: hidden;
+    position: absolute;
+    top: 7px;
+    right: 11px;
+    z-index: 10;
+    width: 36px;
+    height: 36px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/routeSearch/btn_roadsearch.png) no-repeat 0 -100px;
+    text-indent: -9999px
+}
+
+.BusSearch .removeAll:hover {
+    opacity: .6;
+    filter: alpha(opacity="60")
+}
+
+.BusSearch .number,.BusSearch .stop,.BusSearch .BusSearchBox.region {
+    background-color: #fff
+}
+
+.BusSearch .number {
+    position: relative
+}
+
+.BusSearch .number:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    z-index: 10;
+    width: 100%;
+    height: 4px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/routeSearch/shadow_info_section.png) repeat-x 0 100%
+}
+
+.BusSearch .stop {
+    position: relative
+}
+
+.BusSearch .stop:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    z-index: 10;
+    width: 100%;
+    height: 4px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/routeSearch/shadow_info_section.png) repeat-x 0 100%
+}
+
+.BusSearch .BusMethodType {
+    overflow: hidden;
+    position: relative;
+    padding: 0 0 0 20px;
+    background-color: #fff
+}
+
+.BusSearch .BusMethodType:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #e2e2e2;
+    content: ''
+}
+
+.BusSearch .BusMethodType li {
+    float: left;
+    position: relative;
+    z-index: 10;
+    width: 54px;
+    margin-right: 20px
+}
+
+.BusSearch .BusMethodType li a {
+    display: block;
+    width: 100%;
+    padding: 13px 0;
+    border-bottom: 3px solid transparent;
+    font-size: 13px;
+    line-height: 17px;
+    color: #666;
+    text-align: center;
+    text-decoration: none
+}
+
+.BusSearch .BusMethodType .ACTIVE a,.BusSearch .BusMethodType .NUMBER-ACTIVE a,.BusSearch .BusMethodType .BUSSTOP-ACTIVE a,.BusSearch .BusMethodType .REGION-ACTIVE a {
+    border-color: #3396ff;
+    font-weight: bold;
+    color: #1f8cff
+}
+
+.os_mac .BusSearch .BusMethodType li a {
+    padding: 15px 0 11px;
+    font-size: 14px
+}
+
+.BusSearch .BusSearchBox {
+    padding: 18px 20px 18px
+}
+
+.BusSearch .BusSearchBox blockquote {
+    clear: both
+}
+
+.BusSearch .BusSearchBox .box_search {
+    position: relative;
+    height: 34px;
+    padding: 0 37px 0 11px;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    background-color: #fff
+}
+
+.BusSearch .BusSearchBox .q {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0 none;
+    font-size: 14px;
+    background: transparent;
+    color: #222
+}
+
+.BusSearch .BusSearchBox .q::-webkit-input-placeholder {
+    color: #bbb
+}
+
+.BusSearch .BusSearchBox .q:-moz-placeholder {
+    color: #bbb
+}
+
+.BusSearch .BusSearchBox .q::-moz-placeholder {
+    color: #bbb
+}
+
+.BusSearch .BusSearchBox .q:-ms-input-placeholder {
+    color: #bbb
+}
+
+.BusSearch .BusSearchBox .go {
+    overflow: hidden;
+    position: absolute;
+    top: -1px;
+    right: 1px;
+    z-index: 10;
+    width: 36px;
+    height: 36px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_search.png) no-repeat 0 -120px;
+    text-indent: -9999px
+}
+
+.BusSearch .BusSearchBox .go.active {
+    background-position: -40px -120px
+}
+
+.BusSearch .BusSearchBox.region .go {
+    display: none
+}
+
+.BusSearch .BusSearchBox.region {
+    position: relative;
+    margin: 0 -2px
+}
+
+.BusSearch .BusSearchBox.region:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    content: ''
+}
+
+.BusSearch .BusSearchBox.region:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    z-index: 10;
+    width: 100%;
+    height: 4px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/routeSearch/shadow_info_section.png) repeat-x 0 100%
+}
+
+.BusSearch .BusSearchBox.region .sub {
+    display: none
+}
+
+.BusSearch .BusSearchBox.region .rb {
+    position: relative;
+    margin: 0 2px
+}
+
+.BusSearch .BusSearchBox.subregion .hb {
+    float: left;
+    width: 50%
+}
+
+.BusSearch .BusSearchBox.subregion .sub {
+    display: block
+}
+
+.BusSearch .BusSearchBox .method {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: 20;
+    padding: 7px 28px 10px 11px;
+    border: 1px solid #e2e2e2;
+    border-radius: 2px;
+    font-size: 13px;
+    line-height: 17px;
+    background: #fff url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/messageView/ico_sort_arrow.png) no-repeat 100% 14px;
+    color: #bbb
+}
+
+.BusSearch .BusSearchBox .method.melt,.BusSearch .BusSearchBox .method.method-INACTIVE {
+    color: #222
+}
+
+.BusSearch .BusSearchBox .buslocal-ACTIVE .method {
+    border-color: #5aa9fd;
+    background-position: 100% -6px
+}
+
+.BusSearch .BusSearchBox .busSublocal-ACTIVE .method {
+    border-color: #5aa9fd;
+    background-position: 100% -6px
+}
+
+.os_mac .BusSearch .BusSearchBox .method {
+    padding: 9px 28px 8px 11px;
+    font-size: 14px
+}
+
+.BusSearch .BusLocal,.BusSearch .BusSubLocal {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    max-height: 160px;
+    padding: 4px 0;
+    border: 1px solid #e2e2e2;
+    border-radius: 0 0 2px 2px;
+    background-color: #fff
+}
+
+.BusSearch .BusLocal li,.BusSearch .BusSubLocal li {
+    padding: 6px 11px 9px;
+    font-size: 13px;
+    line-height: 17px;
+    color: #222
+}
+
+.BusSearch .BusLocal li:hover,.BusSearch .BusSubLocal li:hover {
+    background-color: #f8f8f8
+}
+
+.os_mac .BusSearch .BusLocal li,.os_mac .BusSearch .BusSubLocal li {
+    padding: 8px 11px 7px;
+    font-size: 14px
+}
+
+.BusSearch .busMessage {
+    position: relative;
+    z-index: 10;
+    padding: 5px 20px 24px;
+    font-size: 13px;
+    line-height: 17px;
+    background: #fff url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/info/shadow_info_section.png) repeat-x 0 100%;
+    color: #444;
+    word-wrap: break-word;
+    word-break: keep-all
+}
+
+.BusSearch .busMessage:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    content: ''
+}
+
+.BusSearch .busMessage .BusMessageView .txt_current {
+    display: block;
+    margin-bottom: 3px
+}
+
+.BusSearch .busMessage .BusMessageView .link_search {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #666;
+    vertical-align: top
+}
+
+.BusSearch .busMessage .BusMessageView .link_search .ico_arr {
+    overflow: hidden;
+    float: right;
+    width: 10px;
+    height: 12px;
+    margin: 4px 0 0 3px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/info/ico_road_arrow.png) no-repeat 0 -12px
+}
+
+.BusSearch .busMessage .BusMessageView em {
+    font-weight: normal;
+    color: #1f8cff
+}
+
+.os_mac .BusSearch .busMessage {
+    font-size: 14px
+}
+
+.os_mac .BusSearch .busMessage .BusMessageView .link_search {
+    font-size: 12px
+}
+
+.os_mac .BusSearch .busMessage .BusMessageView .link_search .ico_arr {
+    margin-top: 1px
+}
+
+.BusResult {
+    padding-bottom: 4px;
+    background: #fff url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/info/shadow_info_section_end.png) repeat-x 0 100%
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BusSearch .removeAll {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/routeSearch/btn_roadsearch2x.png);
+        background-size: 54px 136px
+    }
+
+    .BusSearch .BusSearchBox .go {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_search2x.png);
+        background-size: 384px 206px
+    }
+
+    .BusSearch .BusSearchBox .method {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/messageView/ico_sort_arrow2x.png);
+        background-size: 21px 26px
+    }
+
+    .BusSearch .busMessage {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/info/shadow_info_section2x.png);
+        background-size: 1px 10px
+    }
+
+    .BusSearch .busMessage .BusMessageView .link_search .ico_arr {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/info/ico_road_arrow2x.png);
+        background-size: 10px 24px
+    }
+
+    .BusResult {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/info/shadow_info_section_end2x.png);
+        background-size: 1px 4px
+    }
+
+    .BusSearch .number:after {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/routeSearch/shadow_info_section2x.png);
+        background-size: 2px 4px
+    }
+}
+
+.BusSearch .BusSearchBox .BUSSEARCH-ACTIVE {
+    background-position: 0 -27px
+}
+
+.BusSearch .BusSearchBox .delete {
+    position: absolute;
+    left: 240px;
+    top: 25px;
+    z-index: 12;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2011/map/road/ico_road_search.gif) no-repeat 0 -50px;
+    width: 11px;
+    height: 11px;
+    cursor: pointer
+}
+
+.BusSearch .BusSearchBox .toggle {
+    margin: 10px 0 0 10px;
+    padding: 0 0 0 18px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2010/map/gnb/bt_bus.gif) no-repeat;
+    letter-spacing: -1px
+}
+
+.BusSearch .busMessage .title {
+    padding-left: 8px;
+    color: #333
+}
+
+.BusSearch .busMessage .title strong {
+    color: #0876d7;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.BusSearch .busMessage .title span {
+    color: #666;
+    font-size: 11px;
+    font-family: Dotum,sans-serif
+}
+
+.BusSearch .busMessage .BusMessageView .suggest {
+    z-index: 10
+}
+
+.BusSearch .busPayBtn {
+    font-size: 11px;
+    font-family: Dotum,sans-serif;
+    color: #777;
+    position: relative;
+    left: 268px;
+    top: 11px;
+    text-decoration: underline
+}
+
+.BusStopFlagItem {
+    overflow: hidden;
+    position: relative;
+    padding: 13px 64px 15px 20px;
+    border-top: 1px solid #eee;
+    background-color: #fff;
+    cursor: pointer
+}
+
+.BusStopFlagItem:hover {
+    z-index: 1;
+    background-color: #eff7ff
+}
+
+.BusStopFlagItem a {
+    font-size: 14px;
+    line-height: 19px;
+    color: #222
+}
+
+.BusStopFlagItem .region {
+    margin-left: 5px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #888;
+    vertical-align: 1px
+}
+
+.BusStopFlagItem .flag {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    width: 24px;
+    height: 34px;
+    margin: auto 0;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/flag_route.png) no-repeat;
+    text-indent: -9999px;
+    cursor: pointer
+}
+
+.BusStopFlagItem .Origin {
+    background-position: 0 -50px
+}
+
+.BusStopFlagItem .Via {
+    background-position: -30px -50px
+}
+
+.BusStopFlagItem .Dest {
+    background-position: -60px -50px
+}
+
+.os_mac .BusStopFlagItem {
+    padding: 15px 64px 12px 20px
+}
+
+.os_mac .BusStopFlagItem a {
+    font-size: 15px
+}
+
+.os_mac .BusStopFlagItem .region {
+    font-size: 13px
+}
+
+.BusStopFlagItem .FlagItemInfoLayer-xsmall {
+    right: 7px;
+    padding: 16px 13px 15px 23px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/FlagItemInfoLayer-shadow.png) no-repeat
+}
+
+.BusStopFlagItem-over {
+    z-index: 1;
+    background-color: #eff7ff
+}
+
+.BusStopFlagItem-ACTIVE {
+    z-index: 1;
+    background-color: #eff7ff
+}
+
+.BusStopFlagItem-ACTIVE .flag {
+    display: block
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BusStopFlagItem .flag {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/flag_route2x.png);
+        background-size: 110px 84px
+    }
+
+    .BusStopFlagItem .FlagItemInfoLayer-xsmall {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/FlagItemInfoLayer-shadow2x.png);
+        background-size: 100px 79px
+    }
+}
+
+.InfoWindow.BusStopInfoWindow {
+    left: -178px;
+    bottom: 35px;
+    width: 356px;
+    min-height: 504px
+}
+
+.InfoWindow.BusStopInfoWindow .top,.InfoWindow.BusStopInfoWindow .bottom {
+    background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/pannel_busLineBg_191113.png)
+}
+
+.InfoWindow.BusStopInfoWindow .bottom {
+    height: 19px;
+    background-position: 0 -4px
+}
+
+.InfoWindow.BusStopInfoWindow:after {
+    bottom: -33px
+}
+
+.InfoWindow.BusStopInfoWindow .body {
+    background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/pannel_busLineWrap.png)
+}
+
+.InfoWindow.BusStopInfoWindow .ico_min {
+    top: 14px;
+    right: 46px
+}
+
+.InfoWindow.BusStopInfoWindow .ico_close {
+    top: 14px;
+    right: 12px
+}
+
+.InfoWindow.BusStopInfoWindow .head_tooltip .placename {
+    max-width: 226px
+}
+
+.BusStopInfoWindow .idlist {
+    display: block;
+    padding: 4px 20px 10px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #919191
+}
+
+.BusStopInfoWindow .busCode {
+    display: block
+}
+
+.BusStopInfoWindow .codename {
+    display: block;
+    overflow: hidden;
+    height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.BusStopInfoWindow .codeinfo {
+    display: block;
+    height: 18px;
+    padding-top: 3px
+}
+
+.BusStopInfoWindow .codeinfo a {
+    height: 17px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #3d75cc
+}
+
+.BusStopInfoWindow .bar {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #e2e2e2;
+    vertical-align: -1px
+}
+
+.BusStopInfoWindow .toolbar {
+    padding-bottom: 12px
+}
+
+.BusStopInfoWindow .InfoWindowToolbar {
+    width: 221px;
+    background-position: 0 -470px
+}
+
+.BusStopInfoWindow .InfoWindowToolbar a,.BusStopInfoWindow .InfoWindowToolbar a:first-child {
+    width: 73px
+}
+
+.BusStopInfoWindow .MapShareToolBox {
+    left: 168px
+}
+
+.BusStopInfoWindow .NO-ROADVIEW .InfoWindowToolbar a,.BusStopInfoWindow .NO-ROADVIEW .InfoWindowToolbar a:first-child {
+    width: 110px
+}
+
+.BusStopInfoWindow .NO-ROADVIEW .MapShareToolBox {
+    left: 131px
+}
+
+.BusStopInfoWindow .progressbar {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -1px;
+    padding: 0 15px 0 20px;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    background-color: #f9f9f9
+}
+
+.BusStopInfoWindow .progressbartitle {
+    float: left;
+    padding: 5px 0 6px;
+    font-size: 11px;
+    line-height: 17px;
+    color: #444
+}
+
+.BusStopInfoWindow .BusLoadProgressBar {
+    float: right
+}
+
+.BusStopInfoWindow .list_busstop {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 339px;
+    border-top: 1px solid #e2e2e2;
+    border-radius: 0 0 2px 2px
+}
+
+.BusStopInfoWindow .list_busstop ul {
+    position: relative
+}
+
+.os_mac .BusStopInfoWindow .idlist {
+    font-size: 13px;
+    line-height: 18px
+}
+
+.os_mac .BusStopInfoWindow .codeinfo a {
+    font-size: 13px;
+    line-height: 18px
+}
+
+.os_mac .BusStopInfoWindow .bar {
+    vertical-align: 0
+}
+
+.os_mac .BusStopInfoWindow .progressbartitle {
+    padding: 6px 0 5px;
+    font-size: 12px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .InfoWindow.BusStopInfoWindow .top,.InfoWindow.BusStopInfoWindow .bottom {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/pannel_busLineBg2x_191113.png);
+        background-size: 356px auto
+    }
+
+    .InfoWindow.BusStopInfoWindow .body {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/pannel_busLineWrap2x.png);
+        background-size: 356px 1px
+    }
+}
+
+.BusStopInfoWindow .busTit {
+    overflow: hidden;
+    padding: 2px 80px 5px 34px;
+    white-space: nowrap;
+    background: url("//t1.daumcdn.net/localimg/localimages/07/2012/img/pannel_tooltip_3.png") no-repeat scroll -2px -5px transparent
+}
+
+.BusStopInfoWindow .busTitBottom {
+    height: 10px;
+    background: url("//t1.daumcdn.net/localimg/localimages/07/2012/img/pannel_tooltip_3.png") no-repeat scroll -2px -5px transparent
+}
+
+.BusStopInfoWindow .group {
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2012/img/pannel_long.png) -2px -5px repeat-y;
+    line-height: 19px
+}
+
+.BusStopInfoWindow .groupbr {
+    display: block;
+    width: 324px
+}
+
+.BusStopInfoWindow .idlist .column {
+    color: #ddd;
+    margin: 0 3px
+}
+
+.BusStopInfoWindow .column {
+    color: #ddd
+}
+
+.BusStopInfoWindow .stopid {
+    color: #666
+}
+
+.BusStopInfoWindow .rule {
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #a9a9ac;
+    margin-bottom: -1px
+}
+
+.BusStopItem {
+    padding: 18px 20px 20px;
+    border-top: 1px solid #eee
+}
+
+.BusStopItem:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    content: ''
+}
+
+.BusStopItem:first-child {
+    border-top: 0 none
+}
+
+.BusStopItem .utile_item {
+    float: right;
+    position: relative;
+    margin: 2px 0 0 20px
+}
+
+.BusStopItem .utile_item a {
+    float: left;
+    min-width: 30px;
+    min-height: 30px;
+    border: 1px solid #dbdbdb;
+    border-color: rgba(0,0,0,.14);
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center
+}
+
+.BusStopItem .fav {
+    position: relative
+}
+
+.BusStopItem .fav .ico_fav {
+    display: block;
+    overflow: hidden;
+    width: 10px;
+    height: 15px;
+    margin: 8px auto 0;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_fav.png) no-repeat 0 0;
+    text-indent: -9999px;
+    vertical-align: top
+}
+
+.BusStopItem .fav .num {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 14px;
+    height: 14px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/num_fav.png) no-repeat;
+    text-indent: -9999px
+}
+
+.BusStopItem .fav .num1 {
+    background-position: 0 0
+}
+
+.BusStopItem .fav .num2 {
+    background-position: 0 -20px
+}
+
+.BusStopItem .fav .num3 {
+    background-position: 0 -40px
+}
+
+.BusStopItem .fav .num4 {
+    background-position: 0 -60px
+}
+
+.BusStopItem .fav .num5 {
+    background-position: 0 -80px
+}
+
+.BusStopItem .fav .num6 {
+    background-position: 0 -100px
+}
+
+.BusStopItem .fav .num7 {
+    background-position: 0 -120px
+}
+
+.BusStopItem .fav .num8 {
+    background-position: 0 -140px
+}
+
+.BusStopItem .fav .num9 {
+    background-position: 0 -160px
+}
+
+.BusStopItem .fav .num10 {
+    width: 15px;
+    background-position: 0 -180px
+}
+
+.BusStopItem .fav.ACTIVE .ico_fav {
+    background-position: -10px 0
+}
+
+.BusStopItem .fav.ACTIVE .num {
+    display: block
+}
+
+.BusStopItem .roadview {
+    overflow: hidden;
+    margin-left: 6px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_roadview.png) no-repeat 0 0;
+    text-indent: -9999px
+}
+
+.BusStopItem .para {
+    overflow: hidden
+}
+
+.BusStopItem .tit_name {
+    display: block;
+    overflow: hidden;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #888
+}
+
+.BusStopItem .tit_name .num {
+    margin-right: 2px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #1f8cff
+}
+
+.BusStopItem .tit_name .name {
+    padding-top: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000
+}
+
+.BusStopItem .txt_cate {
+    margin-left: 4px;
+    line-height: 16px;
+    vertical-align: 2px
+}
+
+.BusStopItem .infowrap {
+    padding-top: 4px;
+    color: #666
+}
+
+.BusStopItem .busCode {
+    float: left;
+    font-size: 13px;
+    line-height: 17px
+}
+
+.BusStopItem .busstopbar {
+    float: left;
+    width: 1px;
+    height: 10px;
+    margin: 5px 7px 0;
+    background-color: #e2e2e2
+}
+
+.BusStopItem .region {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.os_mac .BusStopItem .tit_name {
+    font-size: 13px
+}
+
+.os_mac .BusStopItem .tit_name .num {
+    font-size: 18px;
+    font-family: HelveticaNeue
+}
+
+.os_mac .BusStopItem .tit_name .name {
+    padding-top: 3px;
+    font-size: 17px
+}
+
+.os_mac .BusStopItem .busCode {
+    font-size: 14px
+}
+
+.os_mac .BusStopItem .region {
+    font-size: 13px
+}
+
+.os_mac .BusStopItem .busstopbar {
+    margin-top: 2px
+}
+
+.BusStopItem .bustypes {
+    overflow: hidden;
+    padding-top: 4px;
+    clear: both
+}
+
+.BusStopItem .bustypes .bustype {
+    overflow: hidden;
+    float: left;
+    width: 24px;
+    height: 15px;
+    margin-right: 3px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_tooltip_190715.png) no-repeat;
+    text-indent: -9999px
+}
+
+.BusStopItem .bustypes .blue {
+    background-position: -26px -289px
+}
+
+.BusStopItem .bustypes .green {
+    background-position: -26px -306px
+}
+
+.BusStopItem .bustypes .red {
+    background-position: 0 -306px
+}
+
+.BusStopItem .bustypes .general {
+    background-position: -52px -289px
+}
+
+.BusStopItem .bustypes .sit {
+    background-position: -52px -340px
+}
+
+.BusStopItem .bustypes .express {
+    background-position: 0 -323px
+}
+
+.BusStopItem .bustypes .air {
+    background-position: -52px -323px
+}
+
+.BusStopItem .bustypes .direct {
+    background-position: 0 -289px
+}
+
+.BusStopItem .bustypes .yellow {
+    background-position: -52px -306px
+}
+
+.BusStopItem .bustypes .ma {
+    background-position: -26px -323px
+}
+
+.BusStopItem .bustypes .external {
+    background-position: -26px -340px
+}
+
+.BusStopItem .bustypes .intercity {
+    background-position: -78px -289px
+}
+
+.BusStopItem .bustypes .highway {
+    background-position: 0 -340px
+}
+
+.BusStopItem .bustypes .rural {
+    width: 34px;
+    background-position: -104px -289px
+}
+
+.BusStopItem:hover {
+    background-color: #eff7ff
+}
+
+.BusStopItem-ACTIVE {
+    background-color: #eff7ff
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BusStopItem .fav .ico_fav {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_fav2x.png);
+        background-size: 20px 15px
+    }
+
+    .BusStopItem .fav .num {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/num_fav2x.png);
+        background-size: 15px 194px
+    }
+
+    .BusStopItem .roadview {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_roadview2x.png);
+        background-size: 30px 30px
+    }
+
+    .BusStopItem .bustypes .bustype {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_tooltip2x_190715.png);
+        background-size: 273px 504px
+    }
+}
+
+.BusStopLineItemView {
+    overflow: hidden;
+    padding: 6px 18px 4px 15px;
+    border-bottom: 1px solid #eee
+}
+
+.BusStopLineItemView .fav {
+    overflow: hidden;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 7px 16px 0 0;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_tooltip_190715.png) no-repeat -78px -306px;
+    text-indent: -9999px
+}
+
+.BusStopLineItemView .fav.ACTIVE {
+    background-position: -78px -328px
+}
+
+.BusStopLineItemView .stopname {
+    display: block;
+    overflow: hidden;
+    text-decoration: none
+}
+
+.BusStopLineItemView .busname {
+    display: block;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #222;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.BusStopLineItemView .direction {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    top: -1px;
+    max-width: 100%;
+    margin-top: 3px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #888;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.BusStopLineItemView .status {
+    float: right;
+    height: 16px;
+    margin: 10px 0 0 20px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #666
+}
+
+.BusStopLineItemView .status span {
+    color: #666
+}
+
+.BusStopLineItemView .status em {
+    color: #ff5d5d
+}
+
+.BusStopLineItemView .sep {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 0 8px;
+    background-color: #e2e2e2;
+    vertical-align: 0
+}
+
+.os_mac .BusStopLineItemView .busname {
+    font-size: 15px;
+    font-family: HelveticaNeu,AppleSDGothicNeo-Regular
+}
+
+.os_mac .BusStopLineItemView .direction {
+    top: 0;
+    font-size: 12px
+}
+
+.os_mac .BusStopLineItemView .status {
+    font-size: 13px;
+    line-height: 16px
+}
+
+.BusStopLineItemView .action {
+    margin-right: 4px;
+    vertical-align: top
+}
+
+.BusStopLineItemView .action {
+    float: right;
+    margin: 9px 4px 0 0
+}
+
+.BusStopLineItemView .delay {
+    color: red
+}
+
+.BusStopLineItemView .rule2 {
+    margin: 33px 11px 0 35px;
+    border-bottom: 1px solid #f1f1f1
+}
+
+.BusStopLineItemView-noStatus .status {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0!important;
+    text-indent: -9999px
+}
+
+.BusStopLineItemView-noStatus .stopname {
+    display: block;
+    overflow: hidden;
+    float: none;
+    width: auto
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BusStopLineItemView .fav {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/img_tooltip2x_190715.png);
+        background-size: 273px 504px
+    }
+}
+
+.BusStopRouteInfoWindow .BusStopRouteInfoWindowContent {
+    padding-bottom: 30px
+}
+
+.BusStopRouteInfoWindow .busInfo {
+    padding: 2px 0 10px 42px
+}
+
+.BusStopRouteInfoWindow .valuable {
+    overflow: hidden;
+    padding: 0 10px 0 12px;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    background-color: #f9f9f9
+}
+
+.BusStopRouteInfoWindow .busTotal {
+    float: left;
+    padding: 6px 0 5px;
+    font-size: 11px;
+    line-height: 17px;
+    color: #444
+}
+
+.os_mac .BusStopRouteInfoWindow .busTotal {
+    font-size: 12px
+}
+
+.BusStopRouteInfoWindow .refresh {
+    overflow: hidden;
+    float: right;
+    width: 28px;
+    height: 28px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/search_btn_refresh_normal.png) no-repeat;
+    text-indent: -9999px
+}
+
+.BusStopRouteInfoWindow ul {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 152px;
+    border-bottom: 1px solid #ddd
+}
+
+.BusStopRouteInfoWindow .BusStopLineItemView {
+    padding: 8px 12px 5px
+}
+
+.BusStopRouteInfoWindow .BUS-direct,.BusStopRouteInfoWindow .BUS-red,.BusStopRouteInfoWindow .BUS-express,.BusStopRouteInfoWindow .BUS-highway,.BusStopRouteInfoWindow .BUS-blue,.BusStopRouteInfoWindow .BUS-green,.BusStopRouteInfoWindow .BUS-ma,.BusStopRouteInfoWindow .BUS-external,.BusStopRouteInfoWindow .BUS-general,.BusStopRouteInfoWindow .BUS-yellow,.BusStopRouteInfoWindow .BUS-air,.BusStopRouteInfoWindow .BUS-sit,.BusStopRouteInfoWindow .BUS-intercity,.BusStopRouteInfoWindow .BUS-rural {
+    width: 20px;
+    height: 12px;
+    margin-right: 4px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_bus.png) no-repeat
+}
+
+.BusStopRouteInfoWindow .BUS-direct {
+    background-position: 0 -80px
+}
+
+.BusStopRouteInfoWindow .BUS-red {
+    background-position: 0 -100px
+}
+
+.BusStopRouteInfoWindow .BUS-express {
+    background-position: 0 -120px
+}
+
+.BusStopRouteInfoWindow .BUS-highway {
+    background-position: 0 -260px
+}
+
+.BusStopRouteInfoWindow .BUS-blue {
+    background-position: 0 -140px
+}
+
+.BusStopRouteInfoWindow .BUS-green {
+    background-position: 0 -20px
+}
+
+.BusStopRouteInfoWindow .BUS-ma {
+    background-position: 0 0
+}
+
+.BusStopRouteInfoWindow .BUS-external {
+    background-position: 0 -40px
+}
+
+.BusStopRouteInfoWindow .BUS-general {
+    background-position: 0 -60px
+}
+
+.BusStopRouteInfoWindow .BUS-yellow {
+    background-position: 0 -160px
+}
+
+.BusStopRouteInfoWindow .BUS-air {
+    background-position: 0 -180px
+}
+
+.BusStopRouteInfoWindow .BUS-sit {
+    background-position: 0 -200px
+}
+
+.BusStopRouteInfoWindow .BUS-intercity {
+    background-position: 0 -240px
+}
+
+.BusStopRouteInfoWindow .BUS-rural {
+    width: 24px;
+    background-position: 0 -220px
+}
+
+.BusStopRouteInfoWindow .BusStopLineItemView .status {
+    margin-top: 8px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .BusStopRouteInfoWindow .refresh {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/search_btn_refresh_normal2x.png);
+        background-size: 28px 28px
+    }
+
+    .BusStopRouteInfoWindow .BUS-direct,.BusStopRouteInfoWindow .BUS-red,.BusStopRouteInfoWindow .BUS-express,.BusStopRouteInfoWindow .BUS-highway,.BusStopRouteInfoWindow .BUS-blue,.BusStopRouteInfoWindow .BUS-green,.BusStopRouteInfoWindow .BUS-ma,.BusStopRouteInfoWindow .BUS-external,.BusStopRouteInfoWindow .BUS-general,.BusStopRouteInfoWindow .BUS-yellow,.BusStopRouteInfoWindow .BUS-air,.BusStopRouteInfoWindow .BUS-sit,.BusStopRouteInfoWindow .BUS-intercity,.BusStopRouteInfoWindow .BUS-rural {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_bus2x.png);
+        background-size: 24px 272px
+    }
+}
+
+.BusStopRouteInfoWindow .BusStopLineItemView .rule2 {
+    margin-left: 2px
+}
+
+.BusStopRouteInfoWindow img {
+    float: left;
+    display: inline;
+    width: 60px;
+    height: 50px;
+    margin-top: 1px;
+    margin-right: 12px;
+    cursor: pointer
+}
+
+.BusStopRouteInfoWindow .roadviewIcon {
+    position: relative;
+    left: 45px;
+    top: 38px;
+    float: left;
+    width: 15px;
+    height: 19px;
+    margin-right: -15px;
+    background: no-repeat url(//t1.daumcdn.net/localimg/localimages/07/2011/image/btn_thumb_road.png);
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="//t1.daumcdn.net/localimg/localimages/07/2011/image/btn_thumb_road.png");
+    _background: 0
+}
+
+.BusStopRouteInfoWindow .wrap .buslineBtn {
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2011/image/btn_map1.gif) 0 -150px no-repeat;
+    width: 56px;
+    height: 18px;
+    margin-left: auto;
+    margin-right: -4px;
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden
+}
+
+.BusStopRouteInfoWindow .busDesc {
+    overflow: hidden;
+    _zoom: 1;
+    margin-bottom: 8px
+}
+
+.BusStopRouteInfoWindow .busType .icon {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: text-top;
+    *vertical-align: middle;
+    width: 22px;
+    height: 14px;
+    margin-right: 4px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2011/icon/ico_bus.gif) no-repeat
+}
+
+.CarFunctionToolBar {
+    overflow: hidden;
+    position: relative;
+    border-top: 1px solid #ddd
+}
+
+.CarFunctionToolBar a {
+    float: left;
+    width: 129px;
+    height: 18px;
+    padding: 11px 0 10px;
+    font-size: 12px;
+    line-height: 14px;
+    background-color: #fff;
+    color: #444;
+    text-align: center;
+    text-decoration: none
+}
+
+.CarFunctionToolBar a:hover {
+    text-decoration: none
+}
+
+.CarFunctionToolBar .alook {
+    width: 130px;
+    border-left: 1px solid #eee
+}
+
+.CarFunctionToolBar .favorite {
+    border-left: 1px solid #eee
+}
+
+.CarFunctionToolBar .favorite .ico_fav {
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    width: 24px;
+    height: 24px;
+    margin: 0 2px 0 -3px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_fav_b.png) no-repeat 0 0;
+    vertical-align: top
+}
+
+.CarFunctionToolBar .favorite .num {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 14px;
+    height: 14px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/num_fav.png) no-repeat;
+    text-indent: -9999px
+}
+
+.CarFunctionToolBar .favorite .num1 {
+    background-position: 0 0
+}
+
+.CarFunctionToolBar .favorite .num2 {
+    background-position: 0 -20px
+}
+
+.CarFunctionToolBar .favorite .num3 {
+    background-position: 0 -40px
+}
+
+.CarFunctionToolBar .favorite .num4 {
+    background-position: 0 -60px
+}
+
+.CarFunctionToolBar .favorite .num5 {
+    background-position: 0 -80px
+}
+
+.CarFunctionToolBar .favorite .num6 {
+    background-position: 0 -100px
+}
+
+.CarFunctionToolBar .favorite .num7 {
+    background-position: 0 -120px
+}
+
+.CarFunctionToolBar .favorite .num8 {
+    background-position: 0 -140px
+}
+
+.CarFunctionToolBar .favorite .num9 {
+    background-position: 0 -160px
+}
+
+.CarFunctionToolBar .favorite .num10 {
+    width: 15px;
+    background-position: 0 -180px
+}
+
+.CarFunctionToolBar .favorite-active .ico_fav {
+    background-position: -24px 0
+}
+
+.CarFunctionToolBar .favorite-active .num {
+    display: block
+}
+
+.os_mac .CarFunctionToolBar a {
+    font-size: 13px;
+    line-height: 18px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .CarFunctionToolBar .favorite .ico_fav {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_fav_b2x.png);
+        background-size: 48px 24px
+    }
+
+    .CarFunctionToolBar .favorite .num {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/num_fav2x.png);
+        background-size: 15px 194px
+    }
+}
+
+.CarRouteItem .detail {
+    display: none;
+    background-color: #fff
+}
+
+.CarRouteItem-DETAIL .detail {
+    display: block
+}
+
+.CarRouteResultView {
+    position: relative;
+    z-index: 20;
+    background-color: #f9f9f9
+}
+
+.CarRouteResultView .list {
+    background-color: #fff
+}
+
+.info_pathfind .ico_focused {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px
+}
+
+.info_pathfind .ico_pathfind {
+    overflow: hidden;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2014/img/ico_pathfind.png) no-repeat;
+    text-indent: -9999px
+}
+
+.info_pathfind .inner_pathfind {
+    float: right;
+    padding: 11px 20px 13px 0
+}
+
+.info_pathfind .inner_pathfind .txt_bar {
+    overflow: hidden;
+    float: left;
+    width: 1px;
+    height: 12px;
+    margin: 3px 10px 0;
+    font-size: 0;
+    line-height: 0;
+    background-color: #ddd;
+    text-indent: -9999px
+}
+
+.os_mac .info_pathfind .inner_pathfind {
+    padding: 13px 20px 11px 0
+}
+
+.os_mac .info_pathfind .inner_pathfind .txt_bar {
+    margin-top: 1px
+}
+
+.menu_pathfind {
+    border-bottom: 1px solid #e9eaed;
+    border-color: rgba(104,116,133,.15);
+    background-color: #fff
+}
+
+.menu_pathfind:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    content: ''
+}
+
+.opt_pathfind {
+    float: left;
+    position: relative
+}
+
+.opt_pathfind .link_selected {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding: 11px 36px 13px 20px;
+    border-right: 1px solid #eee;
+    font-size: 12px;
+    line-height: 16px;
+    color: #007dff
+}
+
+.opt_pathfind .link_selected:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 18px;
+    width: 14px;
+    height: 14px;
+    margin: auto;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_filter_arr_b.png) no-repeat;
+    content: ''
+}
+
+.opt_pathfind .link_selected:hover {
+    text-decoration: none
+}
+
+.opt_pathfind .list_opt {
+    display: none;
+    position: absolute;
+    top: 31px;
+    left: 19px;
+    z-index: 20;
+    padding: 5px 0 4px;
+    border: 1px solid #f2f2f2;
+    border-color: rgba(0,0,0,.05);
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,.2)
+}
+
+.opt_pathfind li {
+    width: 100%;
+    margin: 0
+}
+
+.opt_pathfind li .link_option {
+    display: block;
+    height: 30px;
+    padding: 0 15px;
+    font-size: 12px;
+    line-height: 28px;
+    color: #444;
+    white-space: nowrap
+}
+
+.opt_pathfind li .link_option:hover {
+    background-color: #f5f5f5;
+    text-decoration: none
+}
+
+.info_pathfind .opt_open {
+    z-index: 30
+}
+
+.info_pathfind .opt_open .link_selected:after {
+    background-position: 0 -20px
+}
+
+.info_pathfind .opt_open .list_opt {
+    display: block
+}
+
+.os_mac .opt_pathfind .link_selected {
+    padding: 13px 36px 11px 20px;
+    font-size: 13px;
+    background-position: 100% 0
+}
+
+.os_mac .opt_pathfind li .link_option {
+    font-size: 13px;
+    line-height: 30px
+}
+
+.os_mac .info_pathfind .opt_open .link_selected {
+    background-position: 100% -20px
+}
+
+.menu_pathfind .check_live {
+    float: left;
+    position: relative;
+    margin-left: 20px
+}
+
+.check_live .inp_live {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    -webkit-appearance: none;
+    outline: 0 none;
+    opacity: .01;
+    filter: alpha(opacity="1")
+}
+
+.check_live .inp_live:checked+.lab_live {
+    background-position: 0 -28px
+}
+
+.check_live .lab_live {
+    display: block;
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 16px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_check_live.png) no-repeat 0 2px;
+    color: #444
+}
+
+.os_mac .check_live .inp_live:checked+.lab_live {
+    background-position: 0 -30px
+}
+
+.os_mac .check_live .lab_live {
+    font-size: 13px;
+    background-position: 0 0
+}
+
+.link_payset {
+    float: right;
+    font-size: 12px;
+    line-height: 16px;
+    color: #444
+}
+
+.os_mac .link_payset {
+    font-size: 13px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .opt_pathfind .link_selected:after {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_filter_arr_b2x.png);
+        background-size: 14px 34px
+    }
+
+    .check_live .lab_live {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_check_live2x.png);
+        background-size: 14px 44px
+    }
+}
+
+.CarRouteResultView .daumNotice {
+    display: block;
+    color: #2499fc;
+    width: 220px;
+    margin: 20px auto;
+    text-align: center
+}
+
+.CarRouteResultView .daumNotice .notice_icon {
+    display: inline-block;
+    width: 21px;
+    text-indent: -999px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2014/img/ico_route_car_150205.png) 0 -75px no-repeat;
+    .position:absolute;.margin-top:-2px;.margin-left:-21px}
+
+.CarRouteResultView .buttons {
+    height: 31px;
+    width: 201px;
+    display: block;
+    margin: 15px auto 0
+}
+
+.CarRouteResultView .buttons a {
+    display: block;
+    float: left;
+    width: 101px;
+    height: 31px;
+    margin-right: -1px;
+    background-image: url(//t1.daumcdn.net/localimg/localimages/07/2011/map/walk/btn_road_search_111207.gif)
+}
+
+.CarRouteResultView .transitBtn {
+    background-position: 0 0
+}
+
+.CarRouteResultView .walkBtn {
+    background-position: -100px 0
+}
+
+.CarRouteResultView.paysetting_on .list,.CarRouteResultView.paysetting_on .buttons {
+    display: none
+}
+
+.CarRouteResultView-NORESULT {
+    padding-bottom: 0
+}
+
+.CarRouteResultView-NORESULT .list,.CarRouteResultView-NORESULT .daumNotice,.CarRouteResultView-NORESULT .buttons,.CarRouteResultView-NORESULT .info_fixroute {
+    display: none!important
+}
+
+.info_pathfind .CarRoutePaySettingView {
+    display: none;
+    overflow: hidden;
+    padding: 24px 0 0 20px;
+    font-family: '돋움',dotum,sans-serif;
+    background-color: #fff;
+    position: relative;
+    z-index: 3
+}
+
+.paysetting_on .CarRoutePaySettingView {
+    display: block
+}
+
+.info_pathfind .list_type .tit_refuel {
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 3px 10px 0 0
+}
+
+.info_pathfind .list_type .detail_refuel {
+    font-size: 11px;
+    color: #777;
+    line-height: 28px;
+    letter-spacing: -1px;
+    .zoom:1}
+
+.info_pathfind .list_type .detail_refuel span {
+    letter-spacing: 0
+}
+
+.info_pathfind .list_type .tit_setting .ico_pathfind {
+    background-position: 0 -100px
+}
+
+.info_pathfind .list_type .opt_pathfind {
+    width: 74px;
+    margin-right: 10px
+}
+
+.info_pathfind .list_type .opt_pathfind .list_opt {
+    width: 72px
+}
+
+.info_pathfind .list_type .link_selected {
+    font-size: 12px;
+    color: #1a9dfa;
+    background-position: 0 -60px
+}
+
+.info_pathfind .list_type .opt_open .link_selected {
+    background-position: 0 -90px
+}
+
+.info_pathfind .list_type .emph_value {
+    display: inline-block;
+    margin-left: 4px;
+    color: #ee3946;
+    letter-spacing: 0
+}
+
+.info_pathfind .list_type .tit_mileage {
+    margin-top: 5px
+}
+
+.info_pathfind .list_type .detail_mileage {
+    margin-top: 3px;
+    font-size: 12px;
+    color: #000;
+    line-height: 19px;
+    letter-spacing: 0;
+    .zoom:1}
+
+.info_pathfind .btn_setting {
+    display: block;
+    width: 70px;
+    height: 28px;
+    margin: 17px auto 10px;
+    font-weight: bold;
+    color: #fff;
+    background-position: 0 -120px
+}
+
+.route_layer {
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    z-index: 1000000
+}
+
+.route_layer .inner_route_layer {
+    position: relative;
+    width: 400px;
+    padding: 31px 0 0;
+    background-color: #fff
+}
+
+.inner_route_layer .layer_head {
+    padding: 0 20px
+}
+
+.inner_route_layer .list_setcaution {
+    display: block;
+    padding: 18px 25px 14px;
+    margin-top: 18px;
+    font-size: 11px;
+    line-height: 18px;
+    color: #888;
+    letter-spacing: -1px;
+    background-color: #f9f9f9
+}
+
+.inner_route_layer .list_setcaution .ico_pathfind {
+    padding-left: 9px;
+    color: #777;
+    text-indent: 0;
+    line-height: 20px;
+    background-position: 2px -152px
+}
+
+.inner_route_layer .pay_setting {
+    position: relative;
+    padding: 0 25px
+}
+
+.inner_route_layer .pay_setting+.pay_setting {
+    margin-top: 9px
+}
+
+.inner_route_layer .tit_routeset {
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    z-index: 10;
+    padding: 0 5px;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 27px;
+    color: #000;
+    vertical-align: top
+}
+
+.inner_route_layer .tit_routeset:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    z-index: -1;
+    background-color: #cee6ff;
+    background-color: rgba(31,140,255,.22);
+    content: ''
+}
+
+.inner_route_layer .tit_setting {
+    display: block;
+    padding: 27px 0 2px 0;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #222;
+    text-indent: 0;
+    letter-spacing: -1px
+}
+
+.inner_route_layer .list_type {
+    padding-top: 10px
+}
+
+.inner_route_layer .detail_mileage {
+    overflow: hidden;
+    font-size: 13px;
+    color: #222
+}
+
+.inner_route_layer .detail_mileage .inp_mileage {
+    width: 71px;
+    height: 36px;
+    padding: 0 12px;
+    margin: 0 8px 0 5px;
+    border: 0 none;
+    border-radius: 2px;
+    color: #999;
+    background-color: #f8f8f8
+}
+
+.inner_route_layer .list_setting {
+    padding-top: 3px;
+    margin: 0 -1px
+}
+
+.inner_route_layer .list_setting li {
+    overflow: hidden;
+    padding-top: 5px
+}
+
+.inner_route_layer .link_office {
+    position: absolute;
+    top: 27px;
+    right: 25px;
+    text-decoration: underline;
+    font-size: 11px;
+    color: #888;
+    letter-spacing: -1px
+}
+
+.inner_route_layer .txt_base {
+    display: block;
+    overflow: hidden;
+    padding-top: 9px;
+    font-size: 12px;
+    clear: both;
+    color: #888
+}
+
+.inner_route_layer .txt_value {
+    color: #ff5d5d
+}
+
+.inner_route_layer .btn_setting {
+    display: block;
+    padding: 10px 25px 9px;
+    margin: 16px auto 0;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    background-color: #3396ff;
+    letter-spacing: -1px
+}
+
+.inner_route_layer .btn_close {
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/roughMap/bt_map.png) no-repeat;
+    text-indent: -9999px
+}
+
+.inner_route_layer .inp_car {
+    float: left;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 2px
+}
+
+.inner_route_layer .inp_car:checked+.lab_car {
+    color: #222
+}
+
+.inner_route_layer .lab_car {
+    display: block;
+    overflow: hidden;
+    padding-left: 1px;
+    font-size: 12px;
+    color: #999;
+    letter-spacing: -1px
+}
+
+.inner_route_layer .lab_car .tit_sort {
+    padding-right: 4px;
+    font-weight: bold;
+    color: #222
+}
+
+.inner_route_layer .opt_pathfind .link_selected {
+    width: 51px;
+    padding: 10px 32px 10px 12px;
+    border-radius: 2px;
+    border-right: 0 none;
+    color: #222;
+    background-color: #f8f8f8
+}
+
+.inner_route_layer .opt_pathfind .link_selected:after {
+    right: 12px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid #666;
+    border-bottom: 0;
+    background: 0;
+    opacity: .7;
+    filter: alpha(opacity="0.7")
+}
+
+.inner_route_layer .opt_pathfind .list_opt {
+    left: 0;
+    width: 95px
+}
+
+.inner_route_layer .opt_pathfind.opt_open .list_opt {
+    display: block
+}
+
+.os_mac .inner_route_layer .list_setcaution {
+    font-size: 12px;
+    letter-spacing: 0
+}
+
+.os_mac .inner_route_layer .tit_setting {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0
+}
+
+.os_mac .inner_route_layer .detail_mileage {
+    font-size: 14px
+}
+
+.os_mac .inner_route_layer .link_office {
+    font-size: 12px;
+    letter-spacing: 0
+}
+
+.os_mac .inner_route_layer .txt_base {
+    font-size: 13px
+}
+
+.os_mac .inner_route_layer .btn_setting {
+    font-size: 14px;
+    letter-spacing: 0
+}
+
+.os_mac .inner_route_layer .lab_car {
+    padding-top: 3px;
+    font-size: 13px;
+    letter-spacing: 0
+}
+
+.CarRouteSummaryView {
+    border-bottom: 1px solid #ddd;
+    background-color: #fff
+}
+
+.CarRouteSummaryView .contents {
+    padding: 20px 20px 25px
+}
+
+.CarRouteSummaryView .contents .header {
+    overflow: hidden
+}
+
+.CarRouteSummaryView .time {
+    float: left;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    color: #000
+}
+
+.CarRouteSummaryView .distance {
+    float: left;
+    margin: 4px 0 0 8px;
+    font-size: 13px;
+    line-height: 17px;
+    color: #222
+}
+
+.CarRouteSummaryView .contents .info {
+    overflow: hidden;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666;
+    word-wrap: break-word;
+    word-break: break-all
+}
+
+.CarRouteSummaryView .split {
+    display: inline-block;
+    overflow: hidden;
+    width: 1px;
+    height: 10px;
+    margin: 4px 4px 0;
+    font-size: 0;
+    line-height: 0;
+    background-color: #e2e2e2;
+    text-indent: -9999px;
+    vertical-align: top
+}
+
+.os_mac .CarRouteSummaryView .contents {
+    padding: 23px 20px 22px
+}
+
+.os_mac .CarRouteSummaryView .time {
+    font-size: 20px
+}
+
+.os_mac .CarRouteSummaryView .distance {
+    margin-top: 2px;
+    font-size: 14px
+}
+
+.os_mac .CarRouteSummaryView .contents .info {
+    font-size: 13px
+}
+
+.os_mac .CarRouteSummaryView .split {
+    margin-top: 2px
+}
+
+.CarRouteSummaryView .ferryNodeInfo {
+    display: none;
+    padding: 15px 20px 13px;
+    background-color: #f9f9f9
+}
+
+.CarRouteSummaryView .icoNotice {
+    overflow: hidden;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 2px 7px 0 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_atten.png) no-repeat 0 0
+}
+
+.CarRouteSummaryView .ferryNotice {
+    overflow: hidden
+}
+
+.CarRouteSummaryView .ferryNotice strong {
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #fd9727
+}
+
+.CarRouteSummaryView .ferryNotice p {
+    padding-left: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #888
+}
+
+.CarRouteItem-DETAIL .CarRouteSummaryView.ferryNode {
+    border-bottom: 0 none
+}
+
+.CarRouteItem-DETAIL .CarRouteSummaryView.ferryNode .ferryNodeInfo {
+    display: block
+}
+
+.os_mac .CarRouteSummaryView .icoNotice {
+    margin-top: 0
+}
+
+.os_mac .CarRouteSummaryView .ferryNotice strong {
+    font-size: 13px
+}
+
+.os_mac .CarRouteSummaryView .ferryNotice p {
+    font-size: 13px
+}
+
+.CarRouteSummaryView .source {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    display: block;
+    top: 50%;
+    left: 20px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2014/img/img_route_logo.png) no-repeat;
+    margin-top: -10px
+}
+
+.CarRouteSummaryView .source.daum {
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2014/img/img_route_logo_kim.png) no-repeat;
+    height: 26px;
+    margin-top: -13px
+}
+
+.CarRouteSummaryView .source.skp {
+    background-position: 0 -25px
+}
+
+.CarRouteSummaryView .source.mn {
+    background-position: 0 -49px
+}
+
+.CarRouteSummaryView .source.kt {
+    background-position: 0 -75px
+}
+
+.CarRouteSummaryView .selectBtn {
+    display: block;
+    position: absolute;
+    top: 21px;
+    right: 15px;
+    width: 23px;
+    height: 23px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2014/img/ico_route_car_150205.png) no-repeat -25px -75px
+}
+
+.CarRouteItem-DETAIL .CarRouteSummaryView .selectBtn {
+    background-position: -50px -75px
+}
+
+.CarRouteSummaryView .minute {
+    margin-right: 1px
+}
+
+.CarRouteSummaryView-KT .contents .header {
+    margin-top: 10px;
+    .margin-top:17px}
+
+.CarRouteSummaryView-KT .contents .info {
+    height: 27px;
+    .height:20px}
+
+.CarRouteSummaryView .roadviewVideoWrap .roadviewVideo:HOVER {
+    background-image: url(//t1.daumcdn.net/localimg/localimages/07/2015/pc/bt_roadview_play_over.png)
+}
+
+.roadviewPopupInfo {
+    display: block;
+    position: absolute;
+    width: 247px;
+    height: 106px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2014/img/1224_info/info_layer.png) no-repeat;
+    z-index: 10
+}
+
+.roadviewPopupInfo .link {
+    display: block;
+    position: absolute;
+    bottom: 8px;
+    right: 18px;
+    color: #888
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .CarRouteSummaryView .icoNotice {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_atten2x.png);
+        background-size: 16px 16px
+    }
+}
+
+.CategoryChildren {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: 19px;
+    left: 0;
+    z-index: 20;
+    min-width: 109px;
+    max-height: 131px;
+    padding: 4px 0;
+    border: 1px solid #e9e9e9;
+    border-color: rgba(0,0,0,.05);
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,.2)
+}
+
+.CategoryChildren li a {
+    display: block;
+    height: 30px;
+    padding: 0 15px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #444;
+    background-color: #fff;
+    white-space: nowrap
+}
+
+.CategoryChildren li a:hover {
+    background-color: #f5f5f5
+}
+
+.os_mac .CategoryChildren li a {
+    font-size: 13px;
+    line-height: 32px
+}
+
+.InfoWindow.CctvInfoWindow {
+    left: -178px;
+    width: 356px
+}
+
+.InfoWindow.CctvInfoWindow .top {
+    background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/pannel_headbg.png)
+}
+
+.InfoWindow.CctvInfoWindow .body {
+    background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/pannel_busLineWrap.png)
+}
+
+.InfoWindow.CctvInfoWindow .bottom {
+    background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/infoWindow/pannel_tooltip_tail.png)
+}
+
+.InfoWindow.CctvInfoWindow strong {
+    display: block;
+    padding: 18px 43px 18px 20px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #888
+}
+
+.InfoWindow.CctvInfoWindow strong em {
+    margin-right: 2px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #000;
+    vertical-align: top
+}
+
+.InfoWindow.CctvInfoWindow .closebox {
+    top: 11px;
+    right: 14px
+}
+
+.CctvInfoWindow .cctvDimmed {
+    display: table;
+    position: absolute;
+    left: 0;
+    z-index: 5;
+    width: 310px;
+    height: 232px;
+    margin: 0 23px
+}
+
+.CctvInfoWindow .cctvDimmed .dimmedView {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.CctvInfoWindow .cctvDimmed .dimmedText {
+    display: block;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    color: #fff;
+    text-align: center
+}
+
+.CctvInfoWindow .cctvDimmed .play {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    width: 56px;
+    height: 30px;
+    margin: 14px auto 0;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
+    background-color: #3396ff;
+    color: #fff;
+    text-align: center
+}
+
+.CctvInfoWindow .cctvDimmed .play:hover {
+    text-decoration: none
+}
+
+.CctvInfoWindow .cctvDimmed .dimmedLayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .5;
+    filter: alpha(opacity=50)
+}
+
+.CctvInfoWindow .cctv_video_target {
+    position: relative;
+    width: 310px;
+    height: 232px;
+    margin: auto;
+    overflow: hidden
+}
+
+.CctvInfoWindow .cctv_video_target .b_t,.CctvInfoWindow .cctv_video_target .b_b,.CctvInfoWindow .cctv_video_target .b_l,.CctvInfoWindow .cctv_video_target .b_r {
+    position: absolute;
+    z-index: 50;
+    background-color: #000;
+    opacity: .1;
+    fill: alpha(opacity=10)
+}
+
+.CctvInfoWindow .cctv_video_target .b_t {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px
+}
+
+.CctvInfoWindow .cctv_video_target .b_b {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px
+}
+
+.CctvInfoWindow .cctv_video_target .b_l {
+    top: 1px;
+    bottom: 1px;
+    left: 0;
+    width: 1px
+}
+
+.CctvInfoWindow .cctv_video_target .b_r {
+    top: 1px;
+    bottom: 1px;
+    right: 0;
+    width: 1px
+}
+
+.CctvInfoWindow video {
+    display: block;
+    margin: auto;
+    background: #000;
+    height: 232px
+}
+
+.CctvInfoWindow.live .cctvDimmed,.CctvInfoWindow.live .cctv_video_target,.CctvInfoWindow.live video {
+    height: 207px
+}
+
+.CctvInfoWindow blockquote {
+    padding: 10px 20px 17px
+}
+
+.CctvInfoWindow blockquote p {
+    font-size: 12px;
+    line-height: 17px;
+    font-family: AppleSDGothicNeo-light;
+    color: #888;
+    opacity: .9;
+    filter: alpha(opacity=90)
+}
+
+.CctvInfoWindow blockquote a {
+    color: #3d75cc
+}
+
+.os_mac .InfoWindow.CctvInfoWindow strong {
+    font-size: 13px
+}
+
+.os_mac .InfoWindow.CctvInfoWindow strong em {
+    font-size: 18px;
+    vertical-align: top
+}
+
+.os_mac .CctvInfoWindow .cctvDimmed .dimmedText {
+    font-size: 13px
+}
+
+.os_mac .CctvInfoWindow .cctvDimmed .play {
+    font-size: 13px;
+    line-height: 32px
+}
+
+.os_mac .CctvInfoWindow blockquote p {
+    font-size: 13px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .InfoWindow.CctvInfoWindow .top {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/pannel_headbg2x.png);
+        background-size: 356px 4px
+    }
+
+    .InfoWindow.CctvInfoWindow .body {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/busLineView/pannel_busLineWrap2x.png);
+        background-size: 356px 1px
+    }
+
+    .InfoWindow.CctvInfoWindow .bottom {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/infoWindow/pannel_tooltip_tail2x.png);
+        background-size: 356px 42px
+    }
+}
+
+.CheckpointItem {
+    position: relative;
+    padding-left: 60px
+}
+
+.CheckpointItem:after {
+    position: absolute;
+    top: -1px;
+    left: 60px;
+    right: 0;
+    height: 1px;
+    background-color: #eee;
+    content: ''
+}
+
+.CheckpointItem:first-child:after {
+    content: none
+}
+
+.CheckpointItem:hover,.CheckpointItem-ACTIVE {
+    background-color: #eff7ff
+}
+
+.CheckpointItem .seqWrap {
+    overflow: hidden;
+    position: absolute;
+    top: 22px;
+    left: 60px;
+    width: 20px;
+    height: 20px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/checkpointItem/ico_number_list_map.png) no-repeat 0 -30px
+}
+
+.CheckpointItem .seq {
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    padding-top: 4px;
+    font-size: 11px;
+    line-height: 1.2;
+    font-family: Arial,sans-serif;
+    color: #666;
+    text-align: center;
+    vertical-align: top
+}
+
+.CheckpointItem.bigIndex .seqWrap {
+    left: 52px;
+    width: 28px;
+    background-position-x: -30px
+}
+
+.CheckpointItem.bigIndex .seq {
+    width: 28px
+}
+
+.CheckpointItem:hover .seqWrap,.CheckpointItem-ACTIVE .seqWrap {
+    background-position-y: 0
+}
+
+.CheckpointItem:hover .seq,.CheckpointItem-ACTIVE .seq {
+    color: #fff
+}
+
+.CheckpointItem .info_name {
+    display: table;
+    overflow: hidden;
+    height: 33px;
+    padding: 14px 64px 16px 30px;
+    table-layout: fixed
+}
+
+.CheckpointItem .inner_name {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.CheckpointItem .name,.CheckpointItem .info {
+    display: block;
+    overflow: hidden;
+    cursor: pointer
+}
+
+.CheckpointItem .name {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    color: #222
+}
+
+.CheckpointItem .info {
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #666;
+    letter-spacing: 0
+}
+
+.CheckpointItem .HIDDEN+.info {
+    margin-top: 0
+}
+
+.CheckpointItem .traffic {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 28px;
+    padding: 15px 0 0 20px
+}
+
+.CheckpointItem .arrow {
+    width: 28px;
+    height: 22px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_set.png) no-repeat 0 0
+}
+
+.CheckpointItem .arrow:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 5px
+}
+
+.CheckpointItem .traffic_moderate:after {
+    background-color: #f7d05e;
+    content: ''
+}
+
+.CheckpointItem .traffic_medium:after {
+    background-color: #ef8432;
+    content: ''
+}
+
+.CheckpointItem .traffic_heavy:after {
+    background-color: #eb3e46;
+    content: ''
+}
+
+.CheckpointItem .traffic_light:after {
+    background-color: #10bf00;
+    content: ''
+}
+
+.CheckpointItem .rotate_a {
+    background-position: 0 0
+}
+
+.CheckpointItem .rotate_b {
+    background-position: 0 -30px
+}
+
+.CheckpointItem .rotate_c {
+    background-position: 0 -60px
+}
+
+.CheckpointItem .rotate_d {
+    background-position: 0 -90px
+}
+
+.CheckpointItem .rotate_e {
+    background-position: 0 -120px
+}
+
+.CheckpointItem .rotate_f {
+    background-position: 0 -150px
+}
+
+.CheckpointItem .rotate_g {
+    background-position: 0 -180px
+}
+
+.CheckpointItem .rotate_h {
+    background-position: 0 -210px
+}
+
+.CheckpointItem .rotate_i {
+    background-position: 0 -240px
+}
+
+.CheckpointItem .rotate_j {
+    background-position: 0 -270px
+}
+
+.CheckpointItem .rotate_k {
+    background-position: 0 -300px
+}
+
+.CheckpointItem .rotate_l {
+    background-position: 0 -330px
+}
+
+.CheckpointItem .rotate_m {
+    background-position: 0 -360px
+}
+
+.CheckpointItem .state {
+    margin-top: 4px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #888;
+    text-align: center
+}
+
+.CheckpointItem .ferry .arrow {
+    background-position: 0 -360px
+}
+
+.CheckpointItem .ferry .state {
+    display: none
+}
+
+.CheckpointItem .roadview {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    z-index: 20;
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/icon/ico_roadview.png) no-repeat 0 0;
+    text-indent: -9999px
+}
+
+.os_mac .CheckpointItem .info_name {
+    padding: 16px 64px 14px 30px
+}
+
+.os_mac .CheckpointItem .name {
+    font-size: 14px
+}
+
+.os_mac .CheckpointItem .info {
+    font-size: 13px
+}
+
+.os_mac .CheckpointItem .state {
+    font-size: 12px
+}
+
+.CheckpointItem .only {
+    margin-right: 32px
+}
+
+.noLine {
+    padding-top: 10px;
+    border-top: 0
+}
+
+.CheckpointItem .none {
+    top: 16px
+}
+
+.CheckpointItem .over {
+    background-image: url(//t1.daumcdn.net/localimg/localimages/07/2011/image/bg_roadviewon.png);
+    z-index: 100;
+    margin-right: -100px;
+    width: 166px;
+    height: 116px;
+    right: -29px;
+    top: 9px;
+    zoom:1}
+
+.CheckpointItem .roadview .roadviewImage {
+    display: none
+}
+
+.CheckpointItem .over .roadviewImage {
+    margin-left: 36px;
+    margin-top: 6px;
+    display: block
+}
+
+.CheckpointItem .roadview .roadViewOutPanel {
+    display: none
+}
+
+.CheckpointItem .over .roadViewOutPanel {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 29px;
+    height: 85px;
+    margin-top: 29px
+}
+
+.CheckpointItem .restArea {
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2011/icon/ico_restarea.gif) no-repeat;
+    padding-left: 19px
+}
+
+.CheckpointItem .on {
+    display: block
+}
+
+.CheckpointItem .accContainer {
+    border: 1px solid #e9e9e9;
+    background-color: #fafafa;
+    width: 210px;
+    margin: 0 0 11px 24px;
+    padding: 6px 0 5px 0
+}
+
+.CheckpointItem .accList {
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2011/icon/b_2_bbbbbb.gif) no-repeat 0 5px;
+    margin-left: 8px;
+    padding: 0 5px 0 5px;
+    line-height: 1.1em
+}
+
+.CheckpointItem .accText {
+    font-size: 11px;
+    font-weight: normal;
+    color: #888;
+    letter-spacing: -1px;
+    font-family: Dotum,sans-serif;
+    cursor: default
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .CheckpointItem .seqWrap {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/checkpointItem/ico_number_list_map2x.png);
+        background-size: 88px 230px
+    }
+
+    .CheckpointItem .arrow {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_set2x.png);
+        background-size: 88px 382px
+    }
+
+    .CheckpointItem .roadview {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/icon/ico_roadview2x.png);
+        background-size: 32px 32px
+    }
+}
+
+.CheckpointItemGroupView {
+    margin: 4px 8px 0;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    background-color: #f9f9f9
+}
+
+.CheckpointItem+.CheckpointItemGroupView {
+    margin-top: 12px
+}
+
+.CheckpointItemGroupView+.CheckpointItem {
+    margin-top: 12px
+}
+
+.CheckpointItemGroupView+.CheckpointItem:after {
+    content: none
+}
+
+.CheckpointItemGroupView .summary {
+    overflow: hidden;
+    padding: 11px 20px 0 12px
+}
+
+.CheckpointItemGroupView .expressIcon {
+    overflow: hidden;
+    float: left;
+    width: 26px;
+    height: 26px;
+    font-size: 10px;
+    line-height: 30px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_exnaroad.png) no-repeat 0 0;
+    color: #fff;
+    text-align: center
+}
+
+.os_mac .CheckpointItemGroupView .expressIcon {
+    line-height: 34px
+}
+
+.CheckpointItemGroupView .expressName {
+    overflow: hidden;
+    float: left;
+    padding: 2px 0 0 13px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000
+}
+
+.os_mac .CheckpointItemGroupView .expressName {
+    padding-top: 4px;
+    font-size: 15px
+}
+
+.CheckpointItemGroupView .expressInfo {
+    float: left;
+    padding: 2px 0 0 8px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #666
+}
+
+.os_mac .CheckpointItemGroupView .expressInfo {
+    padding-top: 5px;
+    font-size: 13px
+}
+
+.CheckpointItemGroupView .detailBtn {
+    overflow: hidden;
+    float: right;
+    width: 14px;
+    height: 14px;
+    margin-top: 6px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/btn_printarrow.png) no-repeat 0 0;
+    text-indent: -9999px
+}
+
+.CheckpointItemGroupView .overview {
+    padding: 4px 0 14px 51px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #666
+}
+
+.os_mac .CheckpointItemGroupView .overview {
+    font-size: 13px
+}
+
+.CheckpointItemGroupView .seqIcon {
+    display: inline-block;
+    height: 20px;
+    width: 22px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/img/ico_num_list.png) no-repeat;
+    vertical-align: -7px
+}
+
+.os_mac .CheckpointItemGroupView .seqIcon {
+    vertical-align: -5px
+}
+
+.CheckpointItemGroupView .sectionImg {
+    margin: 0 6px 0 14px
+}
+
+.CheckpointItemGroupView .first {
+    margin-left: 0
+}
+
+.CheckpointItemGroupView ol {
+    display: none;
+    margin-left: -1px;
+    background-color: #fff
+}
+
+.CheckpointItemGroupView .CheckpointItem:last-child .arrow:after {
+    border-radius: 0 0 5px 5px
+}
+
+.CheckpointItemGroupView .CheckpointItem .info_name {
+    padding-right: 64px
+}
+
+.CheckpointItemGroupView-ACTIVE .summary {
+    padding-bottom: 11px;
+    border-bottom: 1px solid #e2e2e2
+}
+
+.CheckpointItemGroupView-ACTIVE .detailBtn {
+    background-position: -20px 0
+}
+
+.CheckpointItemGroupView-ACTIVE ol {
+    display: block
+}
+
+.CheckpointItemGroupView-ACTIVE .overview {
+    display: none
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .CheckpointItemGroupView .expressIcon {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/ico_exnaroad2x.png);
+        background-size: 26px 26px
+    }
+
+    .CheckpointItemGroupView .detailBtn {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/route/btn_printarrow2x.png);
+        background-size: 34px 14px
+    }
+
+    .CheckpointItemGroupView .seqIcon {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/img/ico_num_list2x.png);
+        background-size: 290px 890px
+    }
+}
+
+.CheckpointItemGroupView .through {
+    display: inline-block;
+    height: 20px;
+    width: 27px;
+    background: url("//t1.daumcdn.net/localimg/localimages/07/2011/map/road/ico_road_point.png") no-repeat 0 -100px
+}
+
+.CheckpointItemGroupView .expImage {
+    float: left;
+    margin-right: 8px;
+    vertical-align: middle
+}
+
+body.MAPFRAME .Context {
+    display: none
+}
+
+.Context {
+    overflow: hidden;
+    position: absolute;
+    z-index: 9;
+    width: 120px;
+    margin: -3px 0 0 -11px;
+    padding: 3px 11px 19px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/context/bg_context_190408.png) no-repeat;
+    white-space: nowrap
+}
+
+.Context .contextWrap {
+    padding: 10px 0 9px;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.Context a {
+    display: block;
+    overflow: hidden;
+    height: 31px;
+    padding-left: 16px;
+    font-size: 12px;
+    line-height: 28px;
+    color: #444
+}
+
+.os_mac .Context a {
+    font-size: 13px;
+    line-height: 32px
+}
+
+.Context a:hover {
+    background-color: #f5f5f5;
+    text-decoration: none
+}
+
+.Context a .text {
+    display: block;
+    background: 0;
+    cursor: pointer
+}
+
+.Context .origin,.Context .via,.Context .destination {
+    float: left;
+    width: 18px;
+    height: 25px;
+    margin: 3px 7px 0 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/context/ico_context.png) no-repeat
+}
+
+.Context .origin {
+    background-position: 0 0
+}
+
+.Context .via {
+    background-position: 0 -30px
+}
+
+.Context .destination {
+    background-position: 0 -60px
+}
+
+.Context .separator {
+    display: block;
+    overflow: hidden;
+    height: 1px;
+    margin: 6px 0 7px;
+    background-color: #f0f0f0
+}
+
+.Context .context_here,.Context .context_new,.Context .strange,.Context .fav,.Context .w3w {
+    padding-left: 22px
+}
+
+.upContext {
+    margin-top: -283px
+}
+
+.leftContext {
+    margin-left: -131px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .Context {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/context/bg_context2x_190408.png);
+        background-size: 142px 303px
+    }
+
+    .Context .origin,.Context .via,.Context .destination {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/context/ico_context2x.png);
+        background-size: 18px 85px
+    }
+}
+
+.Context .disabled {
+    color: #999;
+    cursor: default
+}
+
+.DimmedLayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    filter: alpha(opacity=50)
+}
+
+.Forefront {
+    z-index: 1000000
+}
+
+.DistanceToolDot {
+    display: block;
+    overflow: hidden;
+    width: 12px;
+    height: 12px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/tool/dot.png) no-repeat
+}
+
+.DistanceToolCloser {
+    display: block;
+    overflow: hidden;
+    margin-left: 10px;
+    width: 17px;
+    height: 17px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/tool/n_local_btn_13.png) no-repeat;
+    text-indent: -9999px
+}
+
+.DistanceToolBoard {
+    position: absolute;
+    top: -26px;
+    right: -6px;
+    height: 16px;
+    padding: 0 3px;
+    border: 1px solid #f10000;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 14px;
+    background-color: #fff;
+    color: #f10000;
+    text-align: center;
+    letter-spacing: 0
+}
+
+.os_mac .DistanceToolBoard {
+    font-size: 12px;
+    line-height: 18px
+}
+
+.DistanceToolDetail {
+    overflow: hidden;
+    position: relative;
+    min-width: 172px;
+    margin: 11px 0 0 -7px;
+    border: 1px solid #f2f2f2;
+    border-color: rgba(0,0,0,.05);
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+    color: #444;
+    white-space: nowrap;
+    -webkit-box-shadow: 0 8px 10px 0 rgba(0,0,0,.2);
+    -moz-box-shadow: 0 8px 10px 0 rgba(0,0,0,.2);
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,.2);
+    cursor: default
+}
+
+.DistanceToolDetail.freeze {
+    margin-left: 10px;
+    margin-top: 14px
+}
+
+.DistanceToolDetail ul {
+    padding: 9px 25px 11px 14px;
+    background-color: #fff
+}
+
+.DistanceToolDetail .detailToolLabel {
+    display: inline-block;
+    width: 50px
+}
+
+.DistanceToolDetail strong {
+    font-weight: 500;
+    color: #f10000;
+    letter-spacing: 0
+}
+
+.DistanceToolDetail .detailToolClose {
+    overflow: hidden;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/tool/btn_close_s.png) no-repeat;
+    text-indent: -9999px
+}
+
+.DistanceToolDetail .detailToolClose a {
+    display: block;
+    width: 20px;
+    height: 20px
+}
+
+.DistanceToolDetail p {
+    padding: 7px 14px 8px;
+    border-top: 1px solid #f0f0f0;
+    font-weight: normal;
+    line-height: 18px;
+    background-color: #fafafa;
+    color: #666
+}
+
+.DistanceToolDetail p em {
+    color: #444
+}
+
+.os_mac .DistanceToolDetail {
+    font-size: 12px
+}
+
+.os_mac .DistanceToolDetail ul {
+    padding: 11px 25px 9px 14px
+}
+
+.os_mac .DistanceToolDetail p {
+    padding: 9px 14px 6px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .DistanceToolDot {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/tool/dot2x.png);
+        background-size: 12px 12px
+    }
+
+    .DistanceToolCloser {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/tool/n_local_btn_132x.png);
+        background-size: 17px 17px
+    }
+
+    .DistanceToolDetail .detailToolClose {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/tool/btn_close_s2x.png);
+        background-size: 20px 20px
+    }
+}
+
+.DupListView {
+    position: relative;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dupTitleWrap{
+    flex: 1;
+}
+
+.DupListView .dupTitle {
+    overflow: hidden;
+    position: relative;
+    padding-right: 16px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #444;
+    opacity: .9;
+    filter: alpha(opacity="90")
+}
+.DupListView .dupBig {
+    overflow: hidden;
+    position: relative;
+    padding-right: 16px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #444;
+    opacity: .9;
+    filter: alpha(opacity="90");
+    padding-top: 3px;
+    margin-bottom: 3px;
+}
+
+.DupListView .on {
+    background-position: 100% -17px
+}
+
+.DupListView .dupTitle em {
+    color: #3e75cc;
+    letter-spacing: 0
+}
+
+.DupListView .duplist {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    left: 43px;
+    z-index: 20;
+    width: 109px;
+    max-height: 131px;
+    margin-top: 5px;
+    padding: 4px 0;
+    border: 1px solid #e9e9e9;
+    border-color: rgba(0,0,0,.05);
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,.2)
+}
+
+.PlaceFlagItem .DupListView .duplist {
+    width: 145px
+}
+
+.PlaceFlagItem .DupListView .duplist li {
+    width: 130px;
+    padding-right: 15px
+}
+
+.DupListView .duplist li {
+    position: relative;
+    height: 30px
+}
+
+.DupListView .duplist .name {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 3px 55px 8px 15px;
+    font-size: 13px;
+    color: #444;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: left;
+    white-space: nowrap
+}
+
+.os_mac .DupListView .duplist .name {
+    padding: 6px 55px 5px 15px
+}
+
+.DupListView .duplist .name:hover,.DupListView .duplist .on .name {
+    background-color: #f5f5f5
+}
+
+.DupListView .DupItemView:hover {
+    background-color: #f5f5f5
+}
+
+.DupListView .DupItemView .dupFlag {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: 4px;
+    right: 27px;
+    width: 16px;
+    height: 22px;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/dupListView/ico_rel.png) no-repeat;
+    text-indent: -9999px
+}
+
+.os_mac .DupListView .DupItemView .dupFlag {
+    right: 25px
+}
+
+.DupListView .DupItemView-ACTIVE .dupFlag {
+    display: inline-block
+}
+
+.DupListView .DupItemView .Origin {
+    background-position: 0 0
+}
+
+.DupListView .DupItemView .Dest {
+    background-position: 0 -30px
+}
+
+.os_mac .DupListView .dupTitle {
+    background-position: 100% 1px
+}
+
+.os_mac .DupListView .on {
+    background-position: 100% -19px
+}
+
+/* @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx) {
+    .DupListView .dupTitle {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/ico_filter_arrow2x.png);
+        background-size: 14px 34px
+    }
+
+    .DupListView .DupItemView .dupFlag {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/dupListView/ico_rel2x.png);
+        background-size: 94px auto
+    }
+} */
+
+.ico_coach {
+    display: block;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/coachMark/ico_coach.png) no-repeat 0 0;
+    font-size: 1px;
+    line-height: 0;
+    color: transparent
+}
+
+.ico_coach2 {
+    display: block;
+    background: #fff url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/coachMark/ico_coach2.png) no-repeat 0 0;
+    font-size: 1px;
+    line-height: 0;
+    color: transparent
+}
+
+.coach_layer {
+    position: absolute;
+    z-index: 1000000;
+    -webkit-font-smoothing: antialiased
+}
+
+.coach_layer .inner_coach_layer {
+    box-sizing: border-box
+}
+
+.coach_layer .layer_body {
+    position: relative
+}
+
+.coach_layer .img_bg {
+    display: block
+}
+
+.coach_layer .view_coach {
+    position: absolute
+}
+
+.coach_layer .tit_coach {
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: -1px
+}
+
+.coach_layer .desc_coach {
+    font-size: 13px;
+    line-height: 17px;
+    color: #fff;
+    letter-spacing: -1px
+}
+
+.coach_layer .ico_coach {
+    display: block
+}
+
+.os_mac .coach_layer .tit_coach {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0
+}
+
+.os_mac .coach_layer .desc_coach {
+    font-size: 14px;
+    letter-spacing: 0
+}
+
+.coach_layer.coach_layer_type1 {
+    top: -63px;
+    right: 7px
+}
+
+.LOGIN .coach_layer.coach_layer_type1 {
+    top: -63px;
+    right: -25px
+}
+
+.coach_layer.coach_layer_type1 .inner_coach_layer {
+    width: 258px;
+    height: 258px
+}
+
+.coach_layer.coach_layer_type1 .view_coach {
+    top: 73px;
+    left: 53px
+}
+
+.coach_layer.coach_layer_type1 .ico_coach {
+    width: 40px;
+    height: 40px;
+    background-position: -50px 0
+}
+
+.coach_layer.coach_layer_type1 .tit_coach {
+    display: block;
+    padding: 15px 0 0 2px
+}
+
+.coach_layer.coach_layer_type1 .desc_coach {
+    padding: 3px 0 0 2px
+}
+
+.coach_layer.coach_layer_type2 {
+    top: -83px;
+    left: 352px
+}
+
+.coach_layer.coach_layer_type2 .inner_coach_layer {
+    width: 266px;
+    height: 266px
+}
+
+.coach_layer.coach_layer_type2 .view_coach {
+    top: 93px;
+    left: 44px
+}
+
+.coach_layer.coach_layer_type2 .ico_coach {
+    float: left;
+    width: 40px;
+    height: 113px;
+    background-position: 0 0
+}
+
+.coach_layer.coach_layer_type2 .tit_coach {
+    float: left;
+    padding: 22px 0 0 15px
+}
+
+.coach_layer.coach_layer_type2 .desc_coach {
+    float: left;
+    padding: 6px 0 0 14px
+}
+
+.coach_layer.coach_layer_type3 .inner_coach_layer {
+    width: 250px;
+    height: 250px
+}
+
+.coach_layer.coach_layer_type3 .view_coach {
+    top: 68px;
+    left: 50px
+}
+
+.coach_layer.coach_layer_type3 .ico_coach2 {
+    position: relative;
+    width: 89px;
+    height: 32px;
+    margin: 0 10px;
+    background-position: 50% 0
+}
+
+.coach_layer.coach_layer_type3 .ico_coach2:before,.coach_layer.coach_layer_type3 .ico_coach2:after {
+    content: '';
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/coachMark/ico_coach2.png) no-repeat 0 0;
+    text-indent: -9999px
+}
+
+.coach_layer.coach_layer_type3 .ico_coach2:before {
+    left: -10px;
+    background-position: 0 0
+}
+
+.coach_layer.coach_layer_type3 .ico_coach2:after {
+    right: -10px;
+    background-position: 100% 0
+}
+
+.coach_layer.coach_layer_type3 .tit_coach {
+    display: block;
+    padding-top: 17px
+}
+
+.coach_layer.coach_layer_type3 .desc_coach {
+    padding-top: 3px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+    .ico_coach {
+        background-image:url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/coachMark/ico_coach2x.png);
+        background-size: 100px auto
+    }
+
+    .ico_coach2 {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/coachMark/ico_coach22x.png);
+        background-size: 45px auto
+    }
+
+    .coach_layer.coach_layer_type3 .ico_coach2:before,.coach_layer.coach_layer_type3 .ico_coach2:after {
+        background-image: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/coachMark/ico_coach22x.png);
+        background-size: 45px auto
+    }
+}
